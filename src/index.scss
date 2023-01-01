@@ -1,3 +1,4 @@
+
 /* abstracts*/
 @use './scss/abstracts/variables';
 @use './scss/abstracts/mixins';
@@ -6,3 +7,9 @@
 @use './scss/base/base';
 @use './scss/base/resets';
 
+#root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

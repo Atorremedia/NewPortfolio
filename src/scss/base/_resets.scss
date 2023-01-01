@@ -4,11 +4,17 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
 }
-body {
-    margin: 0;
+html, body {
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    background-color: black;
 }
 main {
     display: block;
+}
+html, body, #app, #app>div {
+    height: 100%;
 }
 h1 {
     font-size: 2em;
