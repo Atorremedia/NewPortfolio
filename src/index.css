@@ -203,10 +203,4 @@ template {
 }
 
 /* abstracts*/
-/*base*/
-#root {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}/*# sourceMappingURL=index.css.map */
+/*base*//*# sourceMappingURL=index.css.map */

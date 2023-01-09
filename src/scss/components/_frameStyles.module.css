@@ -15,10 +15,7 @@
   background-position: center;
 }
 
-
-
-
 .wrapper {
-  position: absolute;
+  position: fixed;
   inset: 0;
 }/*# sourceMappingURL=frameStyles.module.css.map */

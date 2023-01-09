@@ -2,7 +2,7 @@
     z-index: 10;
     position: absolute;
     top: 60px;
-    left: 48vw;
+    right: 60px;
     height: 50px;
     margin: 0 auto;
     display: flex;
@@ -11,7 +11,7 @@
     
 }
 .toggleSwitch {
-    margin: 40px auto 10px;
+    margin: 0 auto 10px;
     height: 30px;
     width: 60px;
     border-radius: 15px;
@@ -19,9 +19,6 @@
     background-color: rgba(4, 1, 53, 0.561);
     display: flex;
     justify-items: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     cursor: pointer;
 }
