@@ -4,14 +4,14 @@ export default {
         title : 'My IT blog',
         img : '../assets/august.webp',
         ref : '',
-    },
+      },
+      {
+        title : 'My projects',
+        img : '../assets/august.webp',
+        ref : '',
+      },
     {
     title : 'About me',
-    img : '../assets/august.webp',
-    ref : '',
-  },
-  {
-    title : 'My projects',
     img : '../assets/august.webp',
     ref : '',
   },

@@ -1,5 +1,7 @@
-#App {
+#app {
   display: flex;
   justify-content: center;
   align-items: center;
-}/*# sourceMappingURL=App.css.map */
+  background-image: url(./assets/bg.jpg);
+}
+/*# sourceMappingURL=App.css.map */

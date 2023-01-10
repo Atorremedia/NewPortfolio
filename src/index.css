@@ -57,8 +57,7 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -203,4 +202,12 @@ template {
 }
 
 /* abstracts*/
-/*base*//*# sourceMappingURL=index.css.map */
+/*base*/
+.app {
+  background-image: url(./assets/bg.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+/*# sourceMappingURL=index.css.map */
