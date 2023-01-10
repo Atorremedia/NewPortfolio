@@ -1,0 +1,34 @@
+.toggleContainer {
+  z-index: 10;
+  position: absolute;
+  top: 30px;
+  right: 60px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.toggleSwitch {
+  margin: 0 auto 10px;
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  border: 1px solid rgba(210, 210, 210, 0.5);
+  background-color: rgba(4, 1, 53, 0.561);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toggleBall {
+  background-color: #595959;
+  border: 0.5px solid, white;
+  border-radius: 50%;
+  height: 28px;
+  width: 28px;
+}
+
+/*# sourceMappingURL=_toggleStyles.module.css.map */

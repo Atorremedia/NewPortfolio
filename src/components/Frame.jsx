@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../scss/components/_frameStyles.module.css'
+import styles from '../css/_frameStyles.module.css'
 
 function Frame() {
 
