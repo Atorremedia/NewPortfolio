@@ -4,10 +4,14 @@ import styles from '../css/_pres.module.css'
 function Presentation() {
   return (
         <div className={styles.presCard}>
-          <h1 className={styles.mainTitle}>Hi there! 🖐️ </h1>
+          <h1 className={styles.mainTitle}>Hello world!</h1>
+          <p className={styles.mainTitleEmoji}>🖐️</p>
           <div className={styles.presSubcontainer}>
-            <img src="src/assets/august.webp" width="200px" alt="August Ollé profile image" />
-            <p className={styles.salute}>My name is August Ollé. I am a frontend developer. I love to create while coding.<br/> Let's build something great together!</p>
+            <img src="src/assets/vportrait.png" width="200px" alt="August Ollé profile image" />
+            <div className={styles.presTextWrapper}>
+              <p className={styles.salute}>My name is August Ollé. I am a frontend developer. I love to create while coding.</p>
+              <p className={styles.typewriter}>Let's build something great together!</p>
+            </div>
           </div>
         </div>
   )

@@ -2,12 +2,12 @@ import React from 'react';
 import styles from '../css/_mainButtonsStyles.module.css'
 
 
-function MainButton({ buttonTitle, buttonImg, linkpath}) {
-
+function MainButton({ className, buttonTitle, buttonImg, linkpath, mode}) {
+  
   return (
-    <a className={styles.mainCta} href={linkpath}>
+    <a className={`${styles.mainCta} ${className} ${mode}`} href={linkpath}>
+      <img src={buttonImg} width='100px' alt={buttonTitle}/>
       <h2 className={styles.title}>{buttonTitle}</h2>
-      <img src={buttonImg} alt={buttonTitle}/>
     </a>
   )
 }

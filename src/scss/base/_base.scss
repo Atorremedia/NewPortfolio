@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as v;
+
 html, body {
-    font-family: var(--font-main);
+    font-family: v.$font-main;
 }

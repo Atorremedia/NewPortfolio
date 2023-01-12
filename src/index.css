@@ -1,17 +1,6 @@
-:root {
-  /*fonts*/
-  --font-main: courier;
-  --font-secondary: tahoma;
-  /*colors*/
-  --color-main: #20202099;
-  --color-secondary: ;
-  --background1: #f5f5f5;
-  --background2: #f5f5f500;
-  --color-accent: ;
-}
 
 html, body {
-  font-family: var(--font-main);
+  font-family: courier;
 }
 
 html {
@@ -20,10 +9,8 @@ html {
 }
 
 html, body {
-  height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 main {
@@ -203,8 +190,8 @@ template {
 
 /* abstracts*/
 /*base*/
-.app {
-  background-image: url(./assets/bg.jpg);
+body {
+  background-image: url(../src/assets/bg.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: repeat-y;

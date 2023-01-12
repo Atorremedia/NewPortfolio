@@ -1,1 +1,1 @@
-{"version":3,"sources":["_frameStyles.module.scss","_frameStyles.module.css"],"names":[],"mappings":"AACA;EACI,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,WAAA;EACA,UAAA;EACA,mCAAA;EACA,aAAA;EACA,oCAAA;EACA,+CAAA;ACAJ;;ADEA;EACI,kBAAA;EACA,QAAA;ACCJ","file":"frameStyles.module.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/components/_frameStyles.module.scss"],"names":[],"mappings":"AACA;EACI;EACA;EACA;EACA;EACA;EACA;EACA","file":"_frameStyles.module.css"}

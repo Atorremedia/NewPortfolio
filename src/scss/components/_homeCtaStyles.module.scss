@@ -1,7 +1,9 @@
 .buttons {
     width: 80%;
+    max-width: 1000px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(400px, 100%/2)), 1fr));
+    // grid-template-columns: repeat(2, 1fr);
     gap: 2em;
-    margin: 2em auto;
+    margin: 1em auto;
 }

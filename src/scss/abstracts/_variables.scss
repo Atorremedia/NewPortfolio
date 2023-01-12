@@ -1,16 +1,14 @@
-$background1: rgb(195, 9, 9);
-
-
-
-:root{
+// :root{
     /*fonts*/
-    --font-main: courier;
-    --font-secondary: tahoma;
-
+    $font-main: courier;
+    $font-secondary: tahoma;
     /*colors*/
-    --color-main: #20202099;
-    --color-secondary: ;
-    --background1: #f5f5f5;
-    --background2: #f5f5f500;
-    --color-accent: ;
-}
+    $font-light: #1a1a1a;
+    $font-dark: #e3e3e3;
+    $color-main: #0728B3;
+    $color-secondary: #D0C4DF;
+    $color-tertiary: #14BDEB;
+    $color-four: #D81E5B;
+    $background1: hsla(0, 0%, 97%, .35);
+    $background2: #080808;
+// }

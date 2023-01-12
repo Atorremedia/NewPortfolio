@@ -6,8 +6,8 @@ function Frame() {
 
 
   return (
-    <div className={`${styles.frameBorder} ${styles.wrapper}`} >
-        <div className={styles.frameBorder}>
+    <div className={styles.wrapper} >
+        {/* <div className={styles.frameBorder}>
             <div className={styles.frameBorder}>
                 <div className={styles.frameBorder}>
                     <div className={styles.frameBorder}>
@@ -16,9 +16,7 @@ function Frame() {
                     </div>
                 </div>
             </div>
-        </div>
-
-
+        </div> */}
     </div>
   )
 }
