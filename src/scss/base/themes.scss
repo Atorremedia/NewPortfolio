@@ -1,23 +1,26 @@
 @use '../abstracts/variables' as v;
 
 .light {
-    &.button0 {
-    background-color: v.$color-main;
-    color: v.$font-dark;
-    }
-    &.button1 {
-    background-color: v.$color-secondary;
-    color: v.$font-light;    
-    }
+    &.button0,
     &.button2 {
-    background-color: v.$color-tertiary;
-    color: v.$font-light;    
+    background-color: v.$color-main;
+    color: v.$font-light;
     }
+    &.button1,
     &.button3 {
-    background-color: v.$color-four;
-    color: v.$font-dark;    
+        background-color: v.$color-accent;
+        color: v.$font-light; 
     }
 }
 .dark {
-    background-color: v.$background1;
+    &.button0,
+    &.button2 {
+    background-color: v.$background2;
+    color: v.$font-light;    
+    }
+    &.button1,
+    &.button3 {
+    background-color: v.$background2;
+    color: v.$font-light;
+    }
 }

@@ -1,0 +1,21 @@
+/*fonts*/
+/*colors*/
+.light.button0, .light.button2 {
+  background-color: #0728B3;
+  color: #e3e3e3;
+}
+.light.button1, .light.button3 {
+  background-color: #D81E5B;
+  color: #e3e3e3;
+}
+
+.dark.button0, .dark.button2 {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: #e3e3e3;
+}
+.dark.button1, .dark.button3 {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: #e3e3e3;
+}
+
+/*# sourceMappingURL=_themes.css.map */

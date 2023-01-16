@@ -6,7 +6,7 @@ function MainButton({ className, buttonTitle, buttonImg, linkpath, mode}) {
   
   return (
     <a className={`${styles.mainCta} ${className} ${mode}`} href={linkpath}>
-      <img src={buttonImg} width='100px' alt={buttonTitle}/>
+      <img src={buttonImg} width='50px' alt={buttonTitle}/>
       <h2 className={styles.title}>{buttonTitle}</h2>
     </a>
   )
