@@ -6,7 +6,7 @@ function Frame() {
 
 
   return (
-    <div className={styles.wrapper} >
+    <div className={styles.background} >
         {/* <div className={styles.frameBorder}>
             <div className={styles.frameBorder}>
                 <div className={styles.frameBorder}>

@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/mixins' as *;
 
-.presContainer {
+.presentationContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@
         justify-content: center;
     }
 }
-.presCard {
+.presentationCard {
     @include frozenGlass;
     margin: 65px auto 5px auto;
     height: fit-content;
@@ -26,6 +26,8 @@
     justify-content: center;
     min-width: min-content;
     max-width: 1000px;
+
+
 
     &:hover .salute {
         transform: scale(1.1);
@@ -42,7 +44,7 @@
     font-size: 5vw;
     margin: 0 15px;
 }
-.presSubcontainer {
+.presentationSubcontainer {
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -50,7 +52,7 @@
     flex-wrap: wrap;
     margin: 5px;
 }
-.presSubcontainer img {
+.presentationSubcontainer img {
     margin: 20px;
     display: flex;
     flex-direction: row;
