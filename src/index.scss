@@ -7,9 +7,3 @@
 @use './scss/base/base' as *;
 @use './scss/base/resets' as *;
 
-body {
-    background-image: url(../src/assets/bg.jpg);
-    background-position: top;
-    background-size: cover;
-    background-repeat:repeat-y;
-}

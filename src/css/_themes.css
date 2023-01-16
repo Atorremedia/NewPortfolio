@@ -1,10 +1,18 @@
 /*fonts*/
 /*colors*/
-.light.button0, .light.button2 {
+.light.button0 {
   background-color: #0728B3;
   color: #e3e3e3;
 }
-.light.button1, .light.button3 {
+.light.button1 {
+  background-color: #ae83e1;
+  color: #1a1a1a;
+}
+.light.button2 {
+  background-color: #14BDEB;
+  color: #1a1a1a;
+}
+.light.button3 {
   background-color: #D81E5B;
   color: #e3e3e3;
 }
@@ -17,8 +25,11 @@
   background-color: rgba(17, 17, 17, 0.8);
   color: #e3e3e3;
 }
-.dark .background {
-  background-image: url(../src/assets/bgdark.jpg);
+.dark.back {
+  background-image: url(..//assets/bgdark.jpg);
+}
+.dark.pres {
+  color: #e3e3e3;
 }
 
 /*# sourceMappingURL=_themes.css.map */

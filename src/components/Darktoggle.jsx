@@ -1,29 +1,24 @@
-import React, {useState, useEffect} from 'react'
-import styles from '../scss/components/_toggleStyles.module.scss'
+import React, {useContext} from 'react'
+import styles from '../css/_toggleStyles.module.css'
+import {themeContext} from '../contexts/ThemeContext';
 
 
-function Darktoggle({lightMode, setLightMode}) {
+function Darktoggle() {
 
-  const [mode, setMode] = useState('light');
-
-  useEffect(() => {
-    if (lightMode === false) {
-      setMode('dark');
-    } else {
-      setMode('light');
-    }
-
-  }, [lightMode])
-  
+  const {theme, setTheme} = useContext(themeContext);
 
 
   function handleClick(){
-    setLightMode(!lightMode);
+    if (theme === 'light'){
+    setTheme('dark');
+  } else {
+      setTheme('light');
+    }
   }
 
   return (
     <div className={styles.toggleContainer}>
-        <div className={`${styles.toggleSwitch} ${mode}`} onClick={handleClick}>
+        <div className={`${styles.toggleSwitch} ${theme}`} onClick={handleClick}>
             <div className={styles.toggleBall}>
             </div>
         </div>

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import styles from '../css/_presentation.module.css'
+import {themeContext} from '../contexts/ThemeContext';
 
-function Presentation({lightMode}) {
+
+function Presentation() {
+
+  const {theme} = useContext(themeContext);
+
   return (
-        <div className={`${styles.presentationCard} ${lightMode}`}>
-          <h1 className={styles.mainTitle}>Hello world!</h1>
+    <div className={`${styles.presentationContainer} ${theme}`}>
+        <div className={`${styles.presentationCard} ${theme} pres`}>
+          <h1 className={`${styles.mainTitle}  ${theme} pres`}>Hello world!</h1>
           <p className={styles.mainTitleEmoji}>🖐️</p>
           <div className={styles.presentationSubcontainer}>
             <img src="src/assets/vportrait.png" width="200px" alt="August Ollé profile image" />
@@ -14,6 +20,7 @@ function Presentation({lightMode}) {
             </div>
           </div>
         </div>
+      </div>
   )
 }
 

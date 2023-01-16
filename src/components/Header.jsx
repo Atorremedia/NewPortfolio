@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useContext} from "react";
+import Darktoggle from "./Darktoggle";
+import styles from '../css/_header.module.css'
+import {themeContext} from '../contexts/ThemeContext';
 
-import React from 'react'
 
-function Header() {
+function Header(lightMode, setLightMode) {
+
+  const {theme} = useContext(themeContext);
+
+
   return (
-    <div className="header">
-        
-        
+    <div className={`${styles.header} ${theme}`}>
+      <Darktoggle lightMode={lightMode} setLightMode={setLightMode} />
     </div>
   )
 }

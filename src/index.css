@@ -191,11 +191,5 @@ template {
 
 /* abstracts*/
 /*base*/
-body {
-  background-image: url(../src/assets/bg.jpg);
-  background-position: top;
-  background-size: cover;
-  background-repeat: repeat-y;
-}
 
 /*# sourceMappingURL=index.css.map */

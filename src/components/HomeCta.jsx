@@ -1,26 +1,18 @@
-import React, {useState, useEffect} from 'react'
+import React, {useContext} from 'react'
 import MainButton from './MainButton'
 import styles from '../css/_homeCtaStyles.module.css'
 import buttons from './buttons'
+import {themeContext} from '../contexts/ThemeContext';
 
 
-function HomeCta({lightMode}) {
+function HomeCta() {
   const displayedButtons = [];
-  const [mode, setMode] = useState('light');
 
-  useEffect(() => {
-    if (lightMode === false) {
-      setMode('dark');
-    } else {
-      setMode('light');
-    }
-  }, [lightMode])
-
-
+  const {theme} = useContext(themeContext);
 
     for(let i = 0; i<buttons.buttons.length; i++){
       displayedButtons.push(
-    <MainButton className={`button${i}`} key={buttons.buttons[i].title} buttonTitle={buttons.buttons[i].title} buttonImg={buttons.buttons[i].img} linkpath={buttons.buttons[i].ref} mode={mode}/>
+    <MainButton className={`button${i} ${theme}`} key={buttons.buttons[i].title} buttonTitle={buttons.buttons[i].title} buttonImg={buttons.buttons[i].img} linkpath={buttons.buttons[i].ref}/>
       )
     }
 

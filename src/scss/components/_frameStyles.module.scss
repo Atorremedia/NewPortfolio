@@ -1,10 +1,9 @@
 
-.background {
-    position: absolute;
-    inset: 0;
+.bg {
+    height:100%;
     z-index: 0;
     background-image: url(../src/assets/bg.jpg);
-    background-attachment: fixed;
     background-size: cover;
-    background-position: top;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -1,26 +1,15 @@
 // import './App.css'
-import React, { useState } from 'react'
-import Darktoggle from './components/Darktoggle'
 import Frame from './components/Frame'
-import HomeCta from './components/HomeCta'
-import Presentation from './components/Presentation'
-import styles from './App.css?inline'
-
+import {ThemeProvider} from './contexts/ThemeContext';
 
 function App() {
 
 
-  const [lightMode, setLightMode] = useState(true);
-
-
 
   return (
-    <div className={styles.app}>
-      <Frame lightMode={lightMode} />
-      <Darktoggle lightMode={lightMode} setLightMode={setLightMode} />
-      <Presentation lightMode={lightMode} />
-      <HomeCta lightMode={lightMode} />
-    </div>
+    <ThemeProvider>
+      <Frame />
+    </ThemeProvider>
   )
 }
 
