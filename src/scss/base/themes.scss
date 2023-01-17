@@ -30,7 +30,7 @@
     color: v.$font-light;
     }
     &.back {
-        background-image: url(..//assets/bgdark.jpg);
+        background-color: #021318;
     }
     &.pres {
         background-color: rgba($color: #dfdfdf, $alpha: .2);
@@ -43,8 +43,7 @@
         transition: all .4s ;
     }
     &.presText{
-        color: v.$font-light;
+        color: v.$font-dark;
         background-color: rgba($color: #dfdfdf, $alpha: .2);
-
     }
 }

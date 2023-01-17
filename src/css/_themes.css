@@ -26,7 +26,7 @@
   color: #e3e3e3;
 }
 .dark.back {
-  background-image: url(..//assets/bgdark.jpg);
+  background-color: #021318;
 }
 .dark.pres {
   background-color: rgba(223, 223, 223, 0.2);
@@ -39,7 +39,7 @@
   transition: all 0.4s;
 }
 .dark.presText {
-  color: #e3e3e3;
+  color: #1a1a1a;
   background-color: rgba(223, 223, 223, 0.2);
 }
 

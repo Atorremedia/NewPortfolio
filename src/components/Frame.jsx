@@ -12,10 +12,32 @@ function Frame({}) {
   const {theme} = useContext(themeContext);
 
   return (
-    <div className={`${styles.bg} ${theme} back`} >
+    <div >
+      <div className={`${styles.background} ${theme} back`}>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+      </div>
       <Header />
-        <Presentation />
-        <HomeCta />
+      <Presentation />
+      <HomeCta />
     </div>
   )
 }
