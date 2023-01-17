@@ -33,6 +33,18 @@
         background-image: url(..//assets/bgdark.jpg);
     }
     &.pres {
+        background-color: rgba($color: #dfdfdf, $alpha: .2);
+    }
+    &.presTitle {
         color: v.$font-light;
+    }
+    &.toggle {
+        flex-direction: row-reverse;
+        transition: all .4s ;
+    }
+    &.presText{
+        color: v.$font-light;
+        background-color: rgba($color: #dfdfdf, $alpha: .2);
+
     }
 }

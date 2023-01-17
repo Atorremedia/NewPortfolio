@@ -6,12 +6,12 @@ import {themeContext} from '../contexts/ThemeContext';
 
 function Header() {
 
-  const {theme, setTheme} = useContext(themeContext);
+  const {theme} = useContext(themeContext);
 
 
   return (
     <div className={`${styles.header} ${theme}`}>
-      <Darktoggle theme={theme} setTheme={setTheme} />
+      <Darktoggle lightMode={lightMode} setLightMode={setLightMode} />
     </div>
   )
 }

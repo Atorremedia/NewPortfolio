@@ -1,7 +1,7 @@
 .toggleContainer {
     width: fit-content;
     height: 50px;
-    margin: 5px;
+    margin: 5px 5vw;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -18,10 +18,11 @@
     justify-items: center;
     align-items: center;
     cursor: pointer;
+    transition: all .4s ;
 }
 .toggleBall {
     background-color: #595959;
-    border: .5px solid, white;
+    border: .5px solid white;
     border-radius: 50%;
     height: 28px;
     width: 28px;

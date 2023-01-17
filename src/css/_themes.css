@@ -29,7 +29,18 @@
   background-image: url(..//assets/bgdark.jpg);
 }
 .dark.pres {
+  background-color: rgba(223, 223, 223, 0.2);
+}
+.dark.presTitle {
   color: #e3e3e3;
+}
+.dark.toggle {
+  flex-direction: row-reverse;
+  transition: all 0.4s;
+}
+.dark.presText {
+  color: #e3e3e3;
+  background-color: rgba(223, 223, 223, 0.2);
 }
 
 /*# sourceMappingURL=_themes.css.map */

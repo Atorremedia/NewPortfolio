@@ -1,7 +1,10 @@
+/*fonts*/
+/*colors*/
 .header {
-  height: 100px;
+  height: 60px;
   display: flex;
   flex-direction: row-reverse;
+  background-color: #0728B3;
 }
 
 /*# sourceMappingURL=_header.module.css.map */

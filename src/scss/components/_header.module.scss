@@ -1,5 +1,8 @@
+@use '../abstracts/variables' as v;
+
 .header {
     height: 60px;
     display: flex;
     flex-direction: row-reverse;
+    background-color: v.$color-main;
 }

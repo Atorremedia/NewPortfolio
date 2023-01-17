@@ -10,11 +10,11 @@ function Presentation() {
   return (
     <div className={`${styles.presentationContainer} ${theme}`}>
         <div className={`${styles.presentationCard} ${theme} pres`}>
-          <h1 className={`${styles.mainTitle}  ${theme} pres`}>Hello world!</h1>
+          <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>Hello world!</h1>
           <p className={styles.mainTitleEmoji}>🖐️</p>
-          <div className={styles.presentationSubcontainer}>
+          <div className={`${styles.presentationSubcontainer} ${theme}`}>
             <img src="src/assets/vportrait.png" width="200px" alt="August Ollé profile image" />
-            <div className={styles.presentationTextWrapper}>
+            <div className={`${styles.presentationTextWrapper} ${theme} presText`}>
               <p className={styles.salute}>My name is August Ollé. I am a frontend developer. I love to create while coding.</p>
               <p className={styles.typewriter}>Let's build something great together!</p>
             </div>

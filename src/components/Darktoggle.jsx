@@ -18,7 +18,7 @@ function Darktoggle() {
 
   return (
     <div className={styles.toggleContainer}>
-        <div className={`${styles.toggleSwitch} ${theme}`} onClick={handleClick}>
+        <div className={`${styles.toggleSwitch} ${theme} toggle`} onClick={handleClick}>
             <div className={styles.toggleBall}>
             </div>
         </div>
