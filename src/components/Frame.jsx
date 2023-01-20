@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
-import HomeCta from './HomeCta'
 import Presentation from './Presentation'
+import HomeCta from './HomeCta'
+import Footer from './Footer'
 import {themeContext} from '../contexts/ThemeContext';
 
 
@@ -38,6 +39,7 @@ function Frame({}) {
       <Header />
       <Presentation />
       <HomeCta />
+      <Footer />
     </div>
   )
 }

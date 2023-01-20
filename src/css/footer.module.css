@@ -1,0 +1,14 @@
+/*fonts*/
+/*colors*/
+.footer {
+  height: 260px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #0728B3;
+}
+
+.footerText {
+  color: white;
+}
+
+/*# sourceMappingURL=footer.module.css.map */

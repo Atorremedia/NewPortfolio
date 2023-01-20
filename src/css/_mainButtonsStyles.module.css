@@ -5,31 +5,42 @@
   flex-wrap: wrap;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0 4px 30px rgba(230, 230, 230, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(8.9px);
   border: 1px solid rgba(255, 255, 255, 0.4);
-  transition: all 0.4s;
+  background-color: hsla(0deg, 0%, 97%, 0.5);
   min-width: 150px;
-  height: 100px;
+  height: 120px;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
+  overflow: hidden;
+  position: relative;
 }
 .mainCta:hover {
-  transform: scale(1.1);
-  transition: all 0.4s;
+  transform: scale(1.01);
+  transition: all 0.1s;
 }
 
 .title {
   width: 200px;
 }
 
-img {
-  margin: 5px;
+.newTag {
+  transform: rotate(-35deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  left: -126px;
+  width: 20rem;
+  height: 2rem;
+  border: 1px double #e3e3e3;
+  background-color: red;
+  color: #e3e3e3;
 }
 
 /*# sourceMappingURL=_mainButtonsStyles.module.css.map */

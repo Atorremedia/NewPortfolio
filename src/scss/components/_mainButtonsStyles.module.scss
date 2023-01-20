@@ -4,24 +4,36 @@
 .mainCta {
     @include frozenGlass;
     min-width: 150px;
-    height: 100px;
+    height: 120px;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-decoration: none;
+    overflow: hidden;
+    position: relative;
 
 
     &:hover {
-        transform: scale(1.1);
-        transition: all .4s;
+        transform: scale(1.01);
+        transition: all .1s;
     }
 }
 .title {
     width: 200px;
 }
 
-img {
-    margin: 5px;
+.newTag {
+    transform: rotate(-35deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: -126px;
+    width: 20rem;
+    height: 2rem;
+    border: 1px double v.$font-light;
+    background-color: red;
+    color: v.$font-light;
 }
-

@@ -23,12 +23,9 @@
   flex-wrap: wrap;
   align-items: center;
   border-radius: 15px;
-  box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.4);
-  box-shadow: inset 0 4px 30px rgba(230, 230, 230, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(8.9px);
   border: 1px solid rgba(255, 255, 255, 0.4);
-  transition: all 0.4s;
   background-color: hsla(0deg, 0%, 97%, 0.5);
   height: fit-content;
   flex-direction: row;
@@ -52,11 +49,13 @@
 }
 
 .presentationSubcontainer {
+  background-color: rgba(223, 223, 223, 0.5);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 5px;
+  border-radius: 10px;
 }
 
 .presentationSubcontainer img {
@@ -68,10 +67,8 @@
 }
 
 .presentationTextWrapper {
-  background-color: rgba(223, 223, 223, 0.5);
   margin: 2px;
   padding: 5px;
-  border-radius: 10px;
 }
 
 .salute {
@@ -89,7 +86,7 @@
   font-family: courier;
   font-weight: bolder;
   margin: 40px 10px 10px 10px;
-  padding: 2px;
+  padding: 10px;
   width: 550px;
   max-width: 60ch;
   font-size: 1.4rem;

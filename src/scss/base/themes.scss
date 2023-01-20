@@ -1,46 +1,57 @@
 @use '../abstracts/variables' as v;
 
 .light {
+    &.sun {
+        visibility: visible;
+    }
+    &.moon {
+        visibility: hidden;
+    }
     &.button0 {
-        background-color: v.$color-main;
+        background-color: v.$color-accent;
         color: v.$font-light;
     }
     &.button1 {
-        background-color: v.$color-secondary;
-        color: v.$font-dark;        
+        background-color: v.$color-accent;
+        color: v.$font-light;        
     }
     &.button2 {
-    background-color: v.$color-tertiary;
-    color: v.$font-dark;
+        background-color: v.$color-main;
+        color: v.$font-light;
+        height: 75px;
     }
     &.button3 {
-        background-color: v.$color-accent;
+        background-color: v.$color-main;
         color: v.$font-light; 
+        height: 75px;
     }
 }
 .dark {
-    &.button0,
-    &.button2 {
-    background-color: v.$background2;
-    color: v.$font-light;    
+    &.sun {
+        visibility: hidden;
     }
+    &.moon {
+        visibility: visible;
+    }
+    &.button0,
     &.button1,
+    &.button2 
     &.button3 {
-    background-color: v.$background2;
-    color: v.$font-light;
+    color: v.$font-light; 
     }
     &.back {
         background-color: #021318;
     }
     &.pres {
-        background-color: rgba($color: #dfdfdf, $alpha: .2);
+        background-color: rgba($color: #dfdfdf, $alpha: .5);
     }
     &.presTitle {
         color: v.$font-light;
     }
     &.toggle {
         flex-direction: row-reverse;
-        transition: all .4s ;
+        transition: all .4s;
+        background-color: v.$font-dark
     }
     &.presText{
         color: v.$font-dark;

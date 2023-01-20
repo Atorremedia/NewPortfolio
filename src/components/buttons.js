@@ -1,32 +1,36 @@
 export default {
-    buttons: [
-    {
-        title : 'My IT blog',
-        img : '/src/assets/august.webp',
-        ref : '',
-        bg : 1,
-        color : 'light',
-      },
-      {
-        title : 'My projects',
-        img : '/src/assets/august.webp',
-        ref : '',
-        bg : 2,
-        color : 'dark',
-      },
-    {
-    title : 'About me',
-    img : '/src/assets/august.webp',
+  buttons: [
+  {
+    buttonNumber : 0,
+    title : 'My IT blog',
+    imgSrc : '/src/assets/icons/blogging_white.png',
     ref : '',
-    bg : 3,
     color : 'light',
+    isNew : true,
   },
   {
-    title : 'Get in touch',
-    img : '/src/assets/august.webp',
+    buttonNumber : 1,
+    title : 'My projects',
+    imgSrc : '/src/assets/icons/briefing.png',
     ref : '',
-    bg : 4,
+    color : 'dark',
+    isNew : false,
+  },
+  {
+    buttonNumber : 2,
+    title : 'About me',
+    imgSrc : '/src/assets/icons/resume.png',
+    ref : '',
     color : 'light',
+    isNew : false,
+  },
+  {
+    buttonNumber : 3,
+    title : 'Get in touch',
+    imgSrc : '/src/assets/icons/communicate_white.png',
+    ref : '',
+    color : 'light',
+    isNew : false,
   },
 ]
 }

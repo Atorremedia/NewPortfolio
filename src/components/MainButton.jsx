@@ -3,13 +3,15 @@ import styles from '../css/_mainButtonsStyles.module.css'
 import {themeContext} from '../contexts/ThemeContext';
 
 
-function MainButton({ className, buttonTitle, buttonImg, linkpath}) {
+function MainButton({ className, buttonNumber, buttonTitle, buttonImg, linkpath, isNew}) {
   
   const {theme} = useContext(themeContext);
-
   return (
     <a className={`${styles.mainCta} ${className} ${theme}`} href={linkpath}>
-      <img className={theme} src={buttonImg} width='50px' alt={buttonTitle}/>
+      {isNew && 
+      <div className={`${styles.newTag}`}>New!</div>
+      }
+      <img className={`${theme} ${styles.buttonImg} button${buttonNumber}`} src={buttonImg} height='60px' alt={buttonTitle}/>
       <h2 className={styles.title}>{buttonTitle}</h2>
     </a>
   )

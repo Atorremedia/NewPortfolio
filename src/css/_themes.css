@@ -1,35 +1,44 @@
 /*fonts*/
 /*colors*/
+.light.sun {
+  visibility: visible;
+}
+.light.moon {
+  visibility: hidden;
+}
 .light.button0 {
-  background-color: #0728B3;
-  color: #e3e3e3;
-}
-.light.button1 {
-  background-color: #ae83e1;
-  color: #1a1a1a;
-}
-.light.button2 {
-  background-color: #14BDEB;
-  color: #1a1a1a;
-}
-.light.button3 {
   background-color: #D81E5B;
   color: #e3e3e3;
 }
-
-.dark.button0, .dark.button2 {
-  background-color: rgba(17, 17, 17, 0.8);
+.light.button1 {
+  background-color: #D81E5B;
   color: #e3e3e3;
 }
-.dark.button1, .dark.button3 {
-  background-color: rgba(17, 17, 17, 0.8);
+.light.button2 {
+  background-color: #0728B3;
+  color: #e3e3e3;
+  height: 75px;
+}
+.light.button3 {
+  background-color: #0728B3;
+  color: #e3e3e3;
+  height: 75px;
+}
+
+.dark.sun {
+  visibility: hidden;
+}
+.dark.moon {
+  visibility: visible;
+}
+.dark.button0, .dark.button1, .dark.button2 .dark.button3 {
   color: #e3e3e3;
 }
 .dark.back {
   background-color: #021318;
 }
 .dark.pres {
-  background-color: rgba(223, 223, 223, 0.2);
+  background-color: rgba(223, 223, 223, 0.5);
 }
 .dark.presTitle {
   color: #e3e3e3;
@@ -37,6 +46,7 @@
 .dark.toggle {
   flex-direction: row-reverse;
   transition: all 0.4s;
+  background-color: #1a1a1a;
 }
 .dark.presText {
   color: #1a1a1a;

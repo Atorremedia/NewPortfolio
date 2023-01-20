@@ -1,3 +1,5 @@
+@use '../abstracts/variables' as v;
+
 .toggleContainer {
     width: fit-content;
     height: 50px;
@@ -6,25 +8,39 @@
     justify-items: center;
     align-items: center;
     
+    opacity: .5;
+    
+    &:hover{
+        opacity: 1;
+    }
 }
 .toggleSwitch {
-    margin: 0 auto 10px;
+    margin: 0 auto;
     height: 30px;
     width: 60px;
     border-radius: 15px;
-    border: 1px solid rgba(210, 210, 210, .5);
-    background-color: #159fce44;
+    border: 1px solid v.$font-light;
+    background-color: v.$color-tertiary;
     display: flex;
     justify-items: center;
     align-items: center;
     cursor: pointer;
-    transition: all .4s ;
+    transition: all .2s ;
 }
 .toggleBall {
-    background-color: #595959;
-    border: .5px solid white;
+    background-color: v.$background2;
+    border: .5px solid v.$font-light;
     border-radius: 50%;
     height: 28px;
     width: 28px;
-
+}
+.modeImg {
+    margin: auto 5px;
+    filter: invert(100%);
+    &.true {
+        display: block;
+    }
+    &.false {
+        display: hidden;
+    }
 }

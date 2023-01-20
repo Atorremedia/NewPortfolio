@@ -1,3 +1,5 @@
+/*fonts*/
+/*colors*/
 .toggleContainer {
   width: fit-content;
   height: 50px;
@@ -5,28 +7,43 @@
   display: flex;
   justify-items: center;
   align-items: center;
+  opacity: 0.5;
+}
+.toggleContainer:hover {
+  opacity: 1;
 }
 
 .toggleSwitch {
-  margin: 0 auto 10px;
+  margin: 0 auto;
   height: 30px;
   width: 60px;
   border-radius: 15px;
-  border: 1px solid rgba(210, 210, 210, 0.5);
-  background-color: rgba(21, 159, 206, 0.2666666667);
+  border: 1px solid #e3e3e3;
+  background-color: #14BDEB;
   display: flex;
   justify-items: center;
   align-items: center;
   cursor: pointer;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 
 .toggleBall {
-  background-color: #595959;
-  border: 0.5px solid white;
+  background-color: rgba(17, 17, 17, 0.8);
+  border: 0.5px solid #e3e3e3;
   border-radius: 50%;
   height: 28px;
   width: 28px;
+}
+
+.modeImg {
+  margin: auto 5px;
+  filter: invert(100%);
+}
+.modeImg.true {
+  display: block;
+}
+.modeImg.false {
+  display: hidden;
 }
 
 /*# sourceMappingURL=_toggleStyles.module.css.map */
