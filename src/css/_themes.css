@@ -24,6 +24,12 @@
   color: #e3e3e3;
   height: 75px;
 }
+.light.new {
+  background-color: #0728B3;
+}
+.light.pres {
+  text-shadow: 2px 2px 5px #404040;
+}
 
 .dark.sun {
   visibility: hidden;
@@ -31,14 +37,18 @@
 .dark.moon {
   visibility: visible;
 }
-.dark.button0, .dark.button1, .dark.button2 .dark.button3 {
+.dark.button0, .dark.button1, .dark.button2, .dark.button3 {
   color: #e3e3e3;
+}
+.dark.button2, .dark.button3 {
+  height: 75px;
 }
 .dark.back {
   background-color: #021318;
 }
 .dark.pres {
   background-color: rgba(223, 223, 223, 0.5);
+  text-shadow: 2px 2px 5px #404040;
 }
 .dark.presTitle {
   color: #e3e3e3;
@@ -51,6 +61,9 @@
 .dark.presText {
   color: #1a1a1a;
   background-color: rgba(223, 223, 223, 0.2);
+}
+.dark.new {
+  background-color: rgba(17, 17, 17, 0.8);
 }
 
 /*# sourceMappingURL=_themes.css.map */

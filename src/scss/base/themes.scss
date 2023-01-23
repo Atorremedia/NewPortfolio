@@ -25,6 +25,12 @@
         color: v.$font-light; 
         height: 75px;
     }
+    &.new {
+        background-color: v.$color-main;
+    }
+    &.pres {
+        text-shadow: 2px 2px 5px #404040;
+    }
 }
 .dark {
     &.sun {
@@ -35,15 +41,21 @@
     }
     &.button0,
     &.button1,
-    &.button2 
+    &.button2, 
     &.button3 {
     color: v.$font-light; 
     }
+    &.button2, 
+    &.button3 {
+    height: 75px;
+    }
+
     &.back {
         background-color: #021318;
     }
     &.pres {
         background-color: rgba($color: #dfdfdf, $alpha: .5);
+        text-shadow: 2px 2px 5px #404040;
     }
     &.presTitle {
         color: v.$font-light;
@@ -56,5 +68,8 @@
     &.presText{
         color: v.$font-dark;
         background-color: rgba($color: #dfdfdf, $alpha: .2);
+    }
+    &.new {
+        background-color: v.$background2;
     }
 }

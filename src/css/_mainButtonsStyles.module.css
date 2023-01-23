@@ -18,6 +18,7 @@
   text-decoration: none;
   overflow: hidden;
   position: relative;
+  text-shadow: 2px 2px 5px #404040;
 }
 .mainCta:hover {
   transform: scale(1.01);
@@ -41,6 +42,8 @@
   border: 1px double #e3e3e3;
   background-color: red;
   color: #e3e3e3;
+  box-shadow: 8px 5px 5px rgba(17, 17, 17, 0.8);
+  box-shadow: 8px -5px -5px rgba(17, 17, 17, 0.8);
 }
 
 /*# sourceMappingURL=_mainButtonsStyles.module.css.map */

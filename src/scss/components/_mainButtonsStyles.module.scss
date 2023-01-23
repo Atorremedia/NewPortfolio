@@ -8,11 +8,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
     align-items: center;
     text-decoration: none;
     overflow: hidden;
     position: relative;
-
+    text-shadow: 2px 2px 5px #404040;
 
     &:hover {
         transform: scale(1.01);
@@ -36,4 +37,6 @@
     border: 1px double v.$font-light;
     background-color: red;
     color: v.$font-light;
+    box-shadow: 8px 5px 5px v.$background2;
+    box-shadow: 8px -5px -5px v.$background2;
 }

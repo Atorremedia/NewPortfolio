@@ -8,14 +8,6 @@
   align-items: center;
   font-weight: bolder;
   align-items: center;
-  margin: 0 auto;
-}
-@media screen and (max-width: 1314px) {
-  .presentationContainer {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 }
 
 .presentationCard {
@@ -30,9 +22,9 @@
   height: fit-content;
   flex-direction: row;
   justify-content: center;
-  min-width: min-content;
+  align-items: center;
   max-width: 1000px;
-  margin: 10px auto 5px auto;
+  margin: 10px 3em;
   padding: 5px 5px 20px 5px;
 }
 
@@ -40,11 +32,12 @@
   color: #D81E5B;
   font-family: courier;
   font-size: 4rem;
-  line-height: 2rem;
+  line-height: 4rem;
+  text-align: center;
 }
 
 .mainTitleEmoji {
-  font-size: 3vw;
+  font-size: 3em;
   margin: 0 15px;
 }
 
@@ -54,7 +47,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 5px;
+  margin: 2em;
   border-radius: 10px;
 }
 
@@ -75,7 +68,7 @@
   font-family: tahoma;
   margin: 40px 10px 10px 10px;
   padding: 2px;
-  width: 550px;
+  width: minmax(80% 550px);
   max-width: 60ch;
   font-size: 1.4rem;
   font-weight: 500;
@@ -86,7 +79,7 @@
   font-family: courier;
   font-weight: bolder;
   margin: 40px 10px 10px 10px;
-  padding: 10px;
+  padding: 1px;
   width: 550px;
   max-width: 60ch;
   font-size: 1.4rem;
@@ -98,6 +91,11 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.05em; /* Adjust as needed */
   animation: typing 6.5s steps(35, end) infinite, blink-caret 0.75s step-end;
+}
+@media (max-width: 725px) {
+  .typewriter {
+    display: none;
+  }
 }
 
 /* The typing effect */
