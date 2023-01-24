@@ -10,7 +10,7 @@ function Header() {
 
 
   return (
-    <div className={`${styles.header} ${theme}`}>
+    <div className={`${styles.header} ${theme} header`}>
       <Darktoggle theme={theme} setTheme={setTheme} />
     </div>
   )

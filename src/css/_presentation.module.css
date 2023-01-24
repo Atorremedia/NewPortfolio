@@ -34,11 +34,17 @@
   font-size: 4rem;
   line-height: 4rem;
   text-align: center;
+  margin: 15px;
+}
+@media (max-width: 725px) {
+  .mainTitle {
+    margin: 5px;
+  }
 }
 
 .mainTitleEmoji {
   font-size: 3em;
-  margin: 0 15px;
+  margin: 25px;
 }
 
 .presentationSubcontainer {
@@ -47,7 +53,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 2em;
+  margin: 1em;
   border-radius: 10px;
 }
 
@@ -62,17 +68,27 @@
 .presentationTextWrapper {
   margin: 2px;
   padding: 5px;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .salute {
   font-family: tahoma;
-  margin: 40px 10px 10px 10px;
+  margin: 25px 5px;
   padding: 2px;
-  width: minmax(80% 550px);
+  width: 80%;
   max-width: 60ch;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.7em;
+}
+@media (max-width: 725px) {
+  .salute {
+    margin: 5px;
+  }
 }
 
 .typewriter {

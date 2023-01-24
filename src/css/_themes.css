@@ -31,6 +31,10 @@
   text-shadow: 2px 2px 5px #404040;
 }
 
+.dark.header, .dark.footer {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: #e3e3e3;
+}
 .dark.sun {
   visibility: hidden;
 }

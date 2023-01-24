@@ -1,7 +1,7 @@
 import React from 'react'
 import MainButton from './MainButton'
 import styles from '../css/_homeCtaStyles.module.css'
-import buttons from './buttons'
+import buttons from '../data/buttons'
 
 
 function HomeCta() {

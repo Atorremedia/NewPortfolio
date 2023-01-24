@@ -33,6 +33,12 @@
     }
 }
 .dark {
+    &.header,
+    &.footer {
+        background-color: v.$background2;
+        color: v.$font-light;
+    }
+
     &.sun {
         visibility: hidden;
     }

@@ -9,7 +9,7 @@ function Footer() {
 
 
   return (
-    <div className={`${styles.footer} ${theme}`}>
+    <div className={`${styles.footer} ${theme} footer`}>
       <h4 className={styles.footerText}>Credits</h4>
       <a href="https://www.flaticon.com/free-icons/blog" title="blog icons">Icons created by Freepik - Flaticon</a>
     </div>
