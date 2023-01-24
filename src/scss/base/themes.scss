@@ -78,4 +78,9 @@
     &.new {
         background-color: v.$background2;
     }
+    &.projectTitle {
+        background-color: v.$background1;
+        color: v.$font-light;
+
+    }
 }

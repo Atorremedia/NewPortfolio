@@ -69,5 +69,9 @@
 .dark.new {
   background-color: rgba(17, 17, 17, 0.8);
 }
+.dark.projectTitle {
+  background-color: hsla(0deg, 0%, 97%, 0.5);
+  color: #e3e3e3;
+}
 
 /*# sourceMappingURL=_themes.css.map */

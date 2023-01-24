@@ -10,3 +10,20 @@ backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.4);
 background-color: v.$background1;
 }
+
+@mixin newTag {
+    transform: rotate(-35deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    left: -126px;
+    width: 20rem;
+    height: 2rem;
+    border: 1px double v.$font-light;
+    background-color: red;
+    color: v.$font-light;
+    box-shadow: 8px 5px 5px v.$background2;
+    box-shadow: 8px -5px -5px v.$background2;
+}

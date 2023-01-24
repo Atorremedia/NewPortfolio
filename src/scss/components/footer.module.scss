@@ -1,7 +1,7 @@
 @use '../abstracts/variables' as v;
 
 .footer {
-    height: 260px;
+    height: 160px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background-color: v.$color-main;

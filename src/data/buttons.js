@@ -5,7 +5,7 @@ export default {
     title : 'My IT blog',
     imgSrc : '/src/assets/icons/blogging_white.png',
     imgSrcDark: '/src/assets/icons/blogging.png',
-    linkpath : 'http://blog.augustolle.com',
+    linkpath : {pathname: 'blog.augustolle.com'},
     color : 'light',
     isNew : true,
   },

@@ -1,0 +1,47 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as *;
+
+.projectCard {
+    @include frozenGlass;
+    max-width: 1000px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.newTag {
+    @include newTag;
+}
+.projectTitle {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: v.$background2;
+    color: v.$font-light;
+    width: 100%;
+}
+.projectName {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: v.$font-secondary;
+    font-size: 1.5rem;
+}
+.projectInfo {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.projectDescription {
+    font-size: 1rem;
+    font-family: v.$font-secondary;
+}
+.projectPreview {
+    width: 350px;
+}

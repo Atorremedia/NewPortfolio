@@ -1,7 +1,7 @@
 /*fonts*/
 /*colors*/
 .footer {
-  height: 260px;
+  height: 160px;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   background-color: #0728B3;

@@ -1,16 +1,14 @@
 // import './App.css'
-import Frame from './components/Frame'
-import {ThemeProvider} from './contexts/ThemeContext';
 
-function App() {
+// function App() {
 
 
 
-  return (
-    <ThemeProvider>
-      <Frame />
-    </ThemeProvider>
-  )
-}
+//   return (
+//     <ThemeProvider>
+//       <RoutesConfig/>
+//     </ThemeProvider>
+//   )
+// }
 
-export default App
+// export default App
