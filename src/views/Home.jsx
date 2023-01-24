@@ -1,0 +1,22 @@
+import React from 'react'
+import Presentation from '../components/Presentation'
+import Frame from '../components/Frame'
+import HomeCta from '../components/HomeCta'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
+
+function Home({}) {
+
+
+  return (
+    <div >
+        <Frame />
+        <Header />
+        <Presentation />
+        <HomeCta />
+        <Footer />
+    </div>
+  )
+}
+
+export default Home

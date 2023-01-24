@@ -9,7 +9,7 @@ function HomeCta() {
 
     for(let i = 0; i<buttons.buttons.length; i++){
       displayedButtons.push(
-    <MainButton className={`button${i}`} key={buttons.buttons[i].buttonNumber} number={buttons.buttons[i].buttonNumber} buttonTitle={buttons.buttons[i].title} buttonImg={buttons.buttons[i].imgSrc} linkpath={buttons.buttons[i].ref} isNew={buttons.buttons[i].isNew}/>
+    <MainButton className={`button${i}`} key={buttons.buttons[i].buttonNumber} number={buttons.buttons[i].buttonNumber} buttonTitle={buttons.buttons[i].title} buttonImg={buttons.buttons[i].imgSrc} linkpath={buttons.buttons[i].linkpath} isNew={buttons.buttons[i].isNew}/>
       )
     }
 

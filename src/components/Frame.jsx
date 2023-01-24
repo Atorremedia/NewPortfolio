@@ -1,12 +1,6 @@
 import React, {useContext} from 'react'
-import Presentation from './Presentation'
-import HomeCta from './HomeCta'
-import Footer from './Footer'
 import {themeContext} from '../contexts/ThemeContext';
-
-
 import styles from '../css/_frameStyles.module.css'
-import Header from './Header'
 
 function Frame({}) {
 
@@ -36,10 +30,6 @@ function Frame({}) {
    <span></span>
    <span></span>
       </div>
-      <Header />
-      <Presentation />
-      <HomeCta />
-      <Footer />
     </div>
   )
 }
