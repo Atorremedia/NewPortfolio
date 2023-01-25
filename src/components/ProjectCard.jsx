@@ -16,12 +16,22 @@ function ProjectCard({cardTitle, cardText, cardImg, linkpath, github, isNew}) {
                 <h2 className={`${styles.projectName}`}>{cardTitle}</h2>
             </div>
             <div className={`${styles.projectInfo}`}>
-                <p className={`${styles.projectDescription}`}>{cardText}</p>
-                <img  className={`${styles.projectPreview}`} src={cardImg} alt="Project preview" />
-            </div>
-            <div>
-                <a href={linkpath}>Visit project</a>
-                <a href={github}>Check repository in Github</a>
+                <div className={`${styles.infoContainer}`}>
+                    <p className={`${styles.projectDescription}`}>{cardText}</p>
+                    <div className={`${styles.cardCta}`}>
+                        <a href={linkpath}>
+                            <div className="cardCta">
+                                Visit project
+                            </div>
+                        </a>
+                        <a href={github}>
+                            <div className="cardCta">
+                                Check repository in Github
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                    <img  className={`${styles.projectPreview}`} src={cardImg} alt="Project preview" />
             </div>
         </div>
     )

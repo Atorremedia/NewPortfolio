@@ -10,12 +10,9 @@
   border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: hsla(0deg, 0%, 97%, 0.5);
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 10px auto;
   overflow: hidden;
+  display: block;
 }
 
 .newTag {
@@ -42,7 +39,6 @@
   align-items: center;
   background-color: rgba(17, 17, 17, 0.8);
   color: #e3e3e3;
-  width: 100%;
 }
 
 .projectName {
@@ -58,17 +54,25 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .projectDescription {
   font-size: 1rem;
   font-family: tahoma;
+  padding: 0.5rem;
+  min-width: 250px;
+  max-width: 500px;
 }
 
 .projectPreview {
-  width: 350px;
+  width: 45%;
 }
 
 /*# sourceMappingURL=projectCard.module.css.map */
