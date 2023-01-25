@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import styles from '../css/projectsPresentation.module.css'
 import {themeContext} from '../contexts/ThemeContext';
-import projectCards from '../data/projectCards'
+import projectCards from '../../public/data/projectCards'
 import ProjectCard from './ProjectCard'
 
 
