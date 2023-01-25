@@ -24,8 +24,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: v.$font-secondary;
+    font-family: v.$font-main;
     font-size: 1.5rem;
+    text-align: center;
 }
 .projectInfo {
     display:flex;
@@ -35,8 +36,12 @@
     align-items: center;
 }
 .infoContainer {
+    width: 50%;
     display:flex;
     flex-direction: column;
+    @media (max-width: 725px) {
+        width: 100%;
+    }
 }
 .projectDescription {
     font-size: 1rem;
@@ -44,7 +49,49 @@
     padding: .5rem;
     min-width: 250px;
     max-width: 500px;
+    margin: 15px auto;
+}
+.cardCtaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardCta {
+    @include frozenGlass;
+    width: 1fr;
+    height: 10px;
+    margin: 1rem;
+    padding: 2vw;
+    text-decoration: none;
+    color: v.$font-light;
+    font-family: v.$font-secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 935px) {
+        height: 50px;
+    }
+}
+.cardCta1 {
+    background-color: v.$color-accent;
+}
+.cardCta2 {
+    background-color: v.$color-main;
+}
+.cardCtaText {
+    text-align: center;
+    position: relative;
+    top: -35px;
+    @media (max-width: 935px) {
+    top: -28px;
+    }
+    @media (max-width: 725px) {
+    top: -8px;
+    }
 }
 .projectPreview {
     width: 45%;
+    @media (max-width: 725px) {
+        width: 100%;
+    }
 }

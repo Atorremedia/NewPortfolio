@@ -18,16 +18,16 @@ function ProjectCard({cardTitle, cardText, cardImg, linkpath, github, isNew}) {
             <div className={`${styles.projectInfo}`}>
                 <div className={`${styles.infoContainer}`}>
                     <p className={`${styles.projectDescription}`}>{cardText}</p>
-                    <div className={`${styles.cardCta}`}>
-                        <a href={linkpath}>
-                            <div className="cardCta">
+                    <div className={`${styles.cardCtaContainer}`}>
+                        <a className={`${styles.cardCta}  ${theme} cardCta ${styles.cardCta1}`} href={linkpath}>
+                            <h3 className={`${styles.cardCtaText}`}>
                                 Visit project
-                            </div>
+                            </h3>
                         </a>
-                        <a href={github}>
-                            <div className="cardCta">
+                        <a className={`${styles.cardCta} ${theme} cardCta ${styles.cardCta2}`} href={github}>
+                            <h3 className={`${styles.cardCtaText}`}>
                                 Check repository in Github
-                            </div>
+                            </h3>
                         </a>
                     </div>
                 </div>

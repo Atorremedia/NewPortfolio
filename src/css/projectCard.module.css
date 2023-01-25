@@ -46,8 +46,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: tahoma;
+  font-family: courier;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .projectInfo {
@@ -59,8 +60,14 @@
 }
 
 .infoContainer {
+  width: 50%;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 725px) {
+  .infoContainer {
+    width: 100%;
+  }
 }
 
 .projectDescription {
@@ -69,10 +76,72 @@
   padding: 0.5rem;
   min-width: 250px;
   max-width: 500px;
+  margin: 15px auto;
+}
+
+.cardCtaContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardCta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(8.9px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: hsla(0deg, 0%, 97%, 0.5);
+  width: 1fr;
+  height: 10px;
+  margin: 1rem;
+  padding: 2vw;
+  text-decoration: none;
+  color: #e3e3e3;
+  font-family: tahoma;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 935px) {
+  .cardCta {
+    height: 50px;
+  }
+}
+
+.cardCta1 {
+  background-color: #D81E5B;
+}
+
+.cardCta2 {
+  background-color: #0728B3;
+}
+
+.cardCtaText {
+  text-align: center;
+  position: relative;
+  top: -35px;
+}
+@media (max-width: 935px) {
+  .cardCtaText {
+    top: -28px;
+  }
+}
+@media (max-width: 725px) {
+  .cardCtaText {
+    top: -8px;
+  }
 }
 
 .projectPreview {
   width: 45%;
+}
+@media (max-width: 725px) {
+  .projectPreview {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=projectCard.module.css.map */
