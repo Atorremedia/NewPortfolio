@@ -4,7 +4,6 @@ import {themeContext} from '../contexts/ThemeContext';
 import projectCards from '../../public/data/projectCards'
 import ProjectCard from './ProjectCard'
 
-
 function ProjectsPresentation() {
 
   const {theme} = useContext(themeContext);
@@ -23,11 +22,10 @@ function ProjectsPresentation() {
         linkpath={projectCards.cards[i].linkpath}
         github={projectCards.cards[i].github}
         isNew={projectCards.cards[i].isNew}
+        tags={projectCards.cards[i].tags}
         />
     )
 }
-
-
 
   return (
     <div className={`${styles.presentationContainer} ${theme}`}>

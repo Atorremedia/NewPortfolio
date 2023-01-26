@@ -8,6 +8,7 @@ export default {
     linkpath : 'http://shop.augustolle.com',
     github : 'https://github.com/Atorremedia',
     isNew : false,
+    tags: ['html', 'css', 'javascript', 'react', 'nodejs' , 'expressjs'],
   },
   {
     cardNumber : 1,
@@ -17,6 +18,7 @@ export default {
     linkpath : 'http://tvet.augustolle.com',
     github : 'https://github.com/Atorremedia',
     isNew : false,
+    tags: ['html', 'css', 'javascript',],
   },
   {
     cardNumber : 2,
@@ -26,6 +28,7 @@ export default {
     linkpath : 'http://shop.augustolle.com',
     github : 'https://github.com/Atorremedia',
     isNew : false,
+    tags: ['html', 'css', 'javascript', 'react',],
   },
   {
     cardNumber : 3,
@@ -35,6 +38,7 @@ export default {
     linkpath : {pathname: 'blog.augustolle.com'},
     github : 'https://github.com/Atorremedia',
     isNew : false,
+    tags: ['html', 'css', 'javascript',],
   },
 ]
 }

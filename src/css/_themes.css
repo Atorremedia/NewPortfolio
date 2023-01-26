@@ -30,6 +30,25 @@
 .light.pres {
   text-shadow: 2px 2px 5px #404040;
 }
+.light.html {
+  background-color: rgb(25, 17, 248);
+}
+.light.css {
+  background-color: rgb(248, 17, 17);
+}
+.light.javascript {
+  background-color: rgb(248, 248, 17);
+  color: #1a1a1a;
+}
+.light.react {
+  background-color: rgb(71, 17, 248);
+}
+.light.nodejs {
+  background-color: rgb(248, 56, 17);
+}
+.light.expressjs {
+  background-color: rgb(248, 17, 171);
+}
 
 .dark.header, .dark.footer {
   background-color: rgba(17, 17, 17, 0.8);
@@ -76,6 +95,28 @@
 .dark.title {
   background-color: hsla(0deg, 0%, 97%, 0.5);
   color: #1a1a1a;
+}
+.dark.projectTagsContainer {
+  color: #e3e3e3;
+}
+.dark.html {
+  background-color: rgb(25, 17, 248);
+}
+.dark.css {
+  background-color: rgb(248, 17, 17);
+}
+.dark.javascript {
+  background-color: rgb(248, 248, 17);
+  color: #1a1a1a;
+}
+.dark.react {
+  background-color: rgb(71, 17, 248);
+}
+.dark.nodejs {
+  background-color: rgb(248, 56, 17);
+}
+.dark.expressjs {
+  background-color: rgb(248, 17, 171);
 }
 .dark.cardCta {
   background-color: hsla(0deg, 0%, 97%, 0.5);
