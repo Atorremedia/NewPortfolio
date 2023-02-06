@@ -28,6 +28,20 @@ function PagePresentation({view}) {
             <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>About me</h1>
             <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
               <div className={`${styles.presentationTextWrapper} ${theme}`}>
+                <p className={styles.introText}>Frontend Developer. <br />Coding since kid, now I code professionally to create well designed interfaces and useful applications. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    )
+  } else if (view === 'contact') {
+
+    return (
+      <div className={`${styles.presentationContainer} ${theme}`}>
+          <div className={`${styles.presentationCard} ${theme} pres`}>
+            <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>Contact</h1>
+            <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
+              <div className={`${styles.presentationTextWrapper} ${theme}`}>
                 <p className={styles.introText}>Frontend Developer. <br />Coding since kid, now I use code to create well designed interfaces and useful applications. </p>
               </div>
             </div>
