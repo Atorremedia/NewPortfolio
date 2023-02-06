@@ -8,12 +8,6 @@ import ScrollToTop from '../helpers/ScrollToTop';
 function RoutesConfig(){
     return(
     <Router>
-        {/* <Link to="/"></Link>
-        <Link to="/home"></Link>
-        <Link to={{pathname: "http://blog.augustolle.com"}}></Link>
-        <Link to="/projects"></Link>
-        <Link to="/about"></Link>
-        <Link to="/contact"></Link> */}
 
     <ScrollToTop />
 

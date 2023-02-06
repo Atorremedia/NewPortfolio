@@ -2,7 +2,8 @@ import React from 'react'
 import Frame from '../components/Frame'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import ProjectsPresentation from '../components/ProjectsPresentation'
+import PagePresentation from '../components/PagePresentation'
+import ProjectList from '../components/ProjectList'
 
 function Projects({}) {
 
@@ -11,7 +12,8 @@ function Projects({}) {
     <div >
         <Frame />
         <Header />
-        <ProjectsPresentation />
+        <PagePresentation view='projects'/>
+        <ProjectList />
         <Footer />
     </div>
   )

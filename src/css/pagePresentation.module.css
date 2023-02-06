@@ -6,7 +6,6 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  font-weight: bolder;
   align-items: center;
 }
 
@@ -26,6 +25,7 @@
   max-width: 1000px;
   margin: 10px 3em;
   padding: 5px 5px 20px 5px;
+  font-weight: bolder;
 }
 @media (max-width: 725px) {
   .presentationCard {
@@ -45,11 +45,6 @@
   .mainTitle {
     margin: 5px;
   }
-}
-
-.mainTitleEmoji {
-  font-size: 3em;
-  margin: 25px;
 }
 
 .presentationSubcontainer {
@@ -80,65 +75,25 @@
   align-items: center;
 }
 
-.salute {
+.introText {
   font-family: tahoma;
   margin: 25px 5px;
   padding: 2px;
-  width: 80%;
+  width: 95%;
   max-width: 60ch;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.7em;
 }
 @media (max-width: 725px) {
-  .salute {
+  .introText {
     margin: 5px;
   }
 }
 
-.typewriter {
-  font-family: courier;
-  font-weight: bolder;
-  margin: 40px 10px 10px 10px;
-  padding: 1px;
-  width: 550px;
-  max-width: 40ch;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1em;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.15em solid #D81E5B; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.05em; /* Adjust as needed */
-  animation: typing 6.5s steps(35, end) infinite, blink-caret 0.75s step-end;
-}
-@media (max-width: 725px) {
-  .typewriter {
-    display: none;
-  }
+.cardsContainer {
+  width: 80%;
+  max-width: 1000px;
 }
 
-/* The typing effect */
-@keyframes typing {
-  0% {
-    width: 0;
-  }
-  40% {
-    width: 100%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: orange;
-  }
-}
-
-/*# sourceMappingURL=_presentation.module.css.map */
+/*# sourceMappingURL=pagePresentation.module.css.map */
