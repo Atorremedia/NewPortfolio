@@ -4,7 +4,7 @@ export default {
     cardNumber : 0,
     title : 'My IT blog',
     cardImg : '/assets/tvetprev.webp',
-    text: '',
+    text: 'Short articles, mainly about software development topics and my personal journey in IT',
     linkpath : 'http://shop.augustolle.com',
     github : 'https://github.com/Atorremedia',
     isNew : false,
