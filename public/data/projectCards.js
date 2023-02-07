@@ -3,7 +3,7 @@ export default {
   {
     cardNumber : 0,
     title : 'My IT blog',
-    cardImg : '/src/assets/',
+    cardImg : '/assets/tvetprev.webp',
     text: '',
     linkpath : 'http://shop.augustolle.com',
     github : 'https://github.com/Atorremedia',
