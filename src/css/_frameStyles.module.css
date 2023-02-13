@@ -5,6 +5,8 @@
   height: 100vh;
   z-index: -15;
   inset: 0;
+  background-image: url(../../../public/assets/background.jpg);
+  background-size: cover;
 }
 
 .background {
@@ -14,6 +16,7 @@
   right: 0;
   bottom: 0;
   background: hsla(0deg, 0%, 97%, 0.5);
+  mix-blend-mode: multiply;
   background-size: 400% 400%;
   z-index: -10;
 }

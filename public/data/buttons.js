@@ -15,7 +15,7 @@ export default {
     imgSrc : '/assets/icons/briefing_white.png',
     imgSrcDark: '/assets/icons/briefing.png',
     linkpath : '/projects',
-    color : 'dark',
+    color : 'light',
     isNew : false,
   },
   {

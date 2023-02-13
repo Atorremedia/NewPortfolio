@@ -35,8 +35,26 @@
     width: 20rem;
     height: 2rem;
     border: 1px double v.$font-light;
-    background-color: red;
+    background-color: v.$color-main;
     color: v.$font-light;
     box-shadow: 8px 5px 5px v.$background2;
     box-shadow: 8px -5px -5px v.$background2;
+}
+.button0 {
+    background-color: rgba(v.$color-accent, .6);
+    color: v.$font-light;
+}
+.button1 {
+    background-color: rgba(v.$color-accent, .6);
+    color: v.$font-light;        
+}
+.button2 {
+    background-color: rgba(v.$color-main, .6);
+    color: v.$font-light;
+    height: 75px;
+}
+.button3 {
+    background-color: rgba(v.$color-main, .6);
+    color: v.$font-light; 
+    height: 75px;
 }

@@ -29,7 +29,7 @@ function ProjectList() {
 }
 
   return (
-    <div className={`${styles.presentationContainer} ${theme}`}>
+    <div className={`${styles.sectionContainer} sectionContainer ${theme}`}>
         <div className={`${styles.cardsContainer}`}>
           {displayedCards}
         </div>

@@ -7,7 +7,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .presentationCard {
     @include frozenGlass;
@@ -25,7 +25,7 @@
         }
 }
 .mainTitle{
-    color: v.$color-accent;
+    color: v.$font-dark;
     font-family: v.$font-main;
     font-size: 4rem;
     line-height: 4rem;

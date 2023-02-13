@@ -6,7 +6,7 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .presentationCard {
@@ -34,7 +34,7 @@
 }
 
 .mainTitle {
-  color: #D81E5B;
+  color: #1a1a1a;
   font-family: courier;
   font-size: 4rem;
   line-height: 4rem;

@@ -25,9 +25,7 @@
         color: v.$font-light; 
         height: 75px;
     }
-    &.new {
-        background-color: v.$color-main;
-    }
+
     &.pres {
         text-shadow: 2px 2px 5px #404040;
     }
@@ -80,7 +78,7 @@
 
     &.back {
 
-            background: linear-gradient(-45deg, #3d0d35, #25063d, #012e3f, #01281f);
+            background: linear-gradient(-45deg, #3d0d35ee, #25063dee, #012e3fee, #01281fee);
             background-size: 400% 400%;
             animation: gradient 15s ease infinite;
 
@@ -141,6 +139,17 @@
     }
 }
 
+.burguerLine1.active {
+    transform: rotate(35deg);
+    margin-left: 2px;
+}
+.burguerLine2.active {
+    opacity: 0;
+}
+.burguerLine3.active {
+    transform: rotate(-35deg);
+    margin-left: 2px;
+}
             
 @keyframes gradient {
 	0% {

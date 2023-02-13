@@ -24,9 +24,6 @@
   color: #e3e3e3;
   height: 75px;
 }
-.light.new {
-  background-color: #0728B3;
-}
 .light.pres {
   text-shadow: 2px 2px 5px #404040;
 }
@@ -67,7 +64,7 @@
   height: 75px;
 }
 .dark.back {
-  background: linear-gradient(-45deg, #3d0d35, #25063d, #012e3f, #01281f);
+  background: linear-gradient(-45deg, rgba(61, 13, 53, 0.9333333333), rgba(37, 6, 61, 0.9333333333), rgba(1, 46, 63, 0.9333333333), rgba(1, 40, 31, 0.9333333333));
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -123,6 +120,20 @@
 .dark.cardCta {
   background-color: hsla(0deg, 0%, 97%, 0.5);
   color: #1a1a1a;
+}
+
+.burguerLine1.active {
+  transform: rotate(35deg);
+  margin-left: 2px;
+}
+
+.burguerLine2.active {
+  opacity: 0;
+}
+
+.burguerLine3.active {
+  transform: rotate(-35deg);
+  margin-left: 2px;
 }
 
 @keyframes gradient {
