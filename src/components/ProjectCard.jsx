@@ -3,7 +3,7 @@ import styles from '../css/projectCard.module.css'
 import {themeContext} from '../contexts/ThemeContext';
 
 
-function ProjectCard({cardTitle, cardText, cardImg, linkpath, github, isNew, tags}) {
+function ProjectCard({cardTitle, cardSubtitle, cardText, cardImg, linkpath, github, isNew, tags}) {
 
     const displayedTags = [];
     const {theme} = useContext(themeContext);
@@ -22,6 +22,7 @@ function ProjectCard({cardTitle, cardText, cardImg, linkpath, github, isNew, tag
             }
             <div className={`${styles.projectTitle} title ${theme}`}>
                 <h2 className={`${styles.projectName}`}>{cardTitle}</h2>
+                <p className={`${styles.projectSubtitle}`}>{ cardSubtitle}</p>
                 <div className={`${styles.projectTagsContainer}`}>
                     {displayedTags}
                 </div>

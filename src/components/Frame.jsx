@@ -7,28 +7,8 @@ function Frame({}) {
   const {theme} = useContext(themeContext);
 
   return (
-    <div >
+    <div className={`${styles.top}`} >
       <div className={`${styles.background} ${theme} back`}>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
-   <span></span>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@
     margin: 2rem auto;
     overflow: hidden;
     display:block;
+    border: 1px solid v.$font-dark;
 }
 .newTag {
     @include newTag;
@@ -26,9 +27,14 @@
     justify-content: center;
     align-items: center;
     margin-top: .5rem;
+    margin-bottom: 5px;
     font-family: v.$font-main;
     font-size: 1.5rem;
     text-align: center;
+}
+.projectSubtitle {
+    margin: .5rem;
+    min-width: 200px;
 }
 .projectTagsContainer {
     display: flex;

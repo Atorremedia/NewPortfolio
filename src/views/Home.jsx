@@ -9,13 +9,13 @@ function Home({}) {
 
 
   return (
-    <div >
+    <>
         <Frame />
         <Header />
         <Presentation />
         <HomeCta />
         <Footer />
-    </div>
+    </>
   )
 }
 

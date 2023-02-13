@@ -3,7 +3,7 @@
 .toggleContainer {
     width: fit-content;
     height: 50px;
-    margin: 5px 5vw;
+    margin: auto 10px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -16,9 +16,9 @@
 }
 .toggleSwitch {
     margin: 0 auto;
-    height: 30px;
-    width: 60px;
-    border-radius: 15px;
+    height: 20px;
+    width: 45px;
+    border-radius: 10px;
     border: 1px solid v.$font-light;
     background-color: v.$color-tertiary;
     display: flex;
@@ -31,8 +31,8 @@
     background-color: v.$background2;
     border: .5px solid v.$font-light;
     border-radius: 50%;
-    height: 28px;
-    width: 28px;
+    height: 18px;
+    width: 18px;
 }
 .modeImg {
     margin: auto 5px;

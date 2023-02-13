@@ -4,6 +4,7 @@ import Projects from '../views/Projects';
 import About from '../views/About';
 import Contact from '../views/Contact';
 import ScrollToTop from '../helpers/ScrollToTop';
+import Blog from '../views/blog';
 
 function RoutesConfig(){
     return(
@@ -14,10 +15,7 @@ function RoutesConfig(){
         <Routes>
             <Route path="/" element={ <Home/> } />
             <Route path="/home" element={ <Home/> } />
-            <Route path='/blog' component={() => {
-                window.location.href = 'http://blog.augustolle.com';
-                return null;
-            }}/>
+            <Route path='/blog' element={ <Blog/> }/>
             <Route path="/projects" element={ <Projects/> } />
             <Route path="/about" element={ <About/> } />
             <Route path="/contact" element={ <Contact/> } />

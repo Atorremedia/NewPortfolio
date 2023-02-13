@@ -17,6 +17,7 @@ function ProjectList() {
         key={projectCards.cards[i].cardNumber}
         number={projectCards.cards[i].cardNumber}
         cardTitle={projectCards.cards[i].title}
+        cardSubtitle={projectCards.cards[i].subtitle}
         cardText={projectCards.cards[i].text}
         cardImg={projectCards.cards[i].cardImg}
         linkpath={projectCards.cards[i].linkpath}

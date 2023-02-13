@@ -18,13 +18,13 @@ function Darktoggle() {
   }
 
   return (
-    <div className={styles.toggleContainer}>
-          <img src="/assets/icons/sun.png" width="35px" alt="light mode" className={`${styles.modeImg}  ${theme} sun`} />
+    <div className={styles.toggleContainer} title="Darkmode" >
+          <img src="/assets/icons/sun.png" width="20px" alt="light mode" className={`${styles.modeImg}  ${theme} sun`} />
         <div className={`${styles.toggleSwitch} ${theme} toggle`} onClick={handleClick}>
             <div className={styles.toggleBall}>
             </div>
         </div>
-          <img src="/assets/icons/moon.png" width="25px" alt="dark mode" className={`${styles.modeImg}  ${theme} moon`} />
+          <img src="/assets/icons/moon.png" width="20px" alt="dark mode" className={`${styles.modeImg}  ${theme} moon`} />
     </div>
   )
 }

@@ -1,0 +1,62 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as *;
+
+.menuContainer {
+    margin: auto auto auto 0; 
+}
+.burguerContainer {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: auto auto auto 20px;
+    border-radius: 5px;
+    border: 1px solid v.$font-light;
+    opacity: .5;
+    
+    &:hover{
+        opacity: 1;
+    }
+}
+.burguerLine {
+    height:15%;
+    width: 85%;
+    background-color: v.$font-light;
+    border-radius: 5px;
+}
+.menuNav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    z-index: 25;
+}
+.menuOption {
+    height: 2.5rem;
+    width: 250px;
+    background-color: v.$background1;
+    border: 1px solid v.$font-dark;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-decoration: none;
+    color: v.$font-dark;
+    background-color: v.$color-tertiary;
+    &:hover {
+        background-color: v.$color-accent;
+        color: v.$font-light;
+    }
+}
+.menuOptionText {
+    margin: auto 20px;
+    text-decoration: none;
+    color: v.$font-dark;
+    font-size: 1.5rem;
+}

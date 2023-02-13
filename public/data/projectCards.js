@@ -2,17 +2,19 @@ export default {
   cards: [
   {
     cardNumber : 0,
-    title : 'My IT blog',
+    title: 'Machines for humans',
+    subtitle : 'Blog about Frontend development and other IT topics',
     cardImg : '/assets/tvetprev.webp',
-    text: 'Short articles, mainly about software development topics and my personal journey in IT',
+    text: 'I document my personal journey through Frontend Development and IT in general. Coding, digital interaction, microcontrollers and more.',
     linkpath : 'http://shop.augustolle.com',
     github : 'https://github.com/Atorremedia',
-    isNew : false,
+    isNew : true,
     tags: ['html', 'css', 'javascript', 'react', 'nodejs' , 'expressjs'],
   },
   {
     cardNumber : 1,
-    title : 'Complete website for a Veterinary clinic',
+    title : 'Tarraco Veterinària',
+    subtitle : 'Complete website for a Veterinary clinic',
     cardImg : '/assets/tvetprev.webp',
     text: 'Complete website for an animal health center based in Tarragona, Spain. It has 5 sections and features an html form, css flex and grid models, and Javascript functionalities like a photo carroussel or tag filtering. I made the design and the development for this project.',
     linkpath : 'http://tvet.augustolle.com',
@@ -22,7 +24,8 @@ export default {
   },
   {
     cardNumber : 2,
-    title : 'Webshop with basket management',
+    title : 'Yourshop',
+    subtitle : 'Webshop with basket management',
     cardImg : '/assets/shop.webp',
     text: 'Basic, fully working shopping cart.',
     linkpath : 'http://shop.augustolle.com',
@@ -32,7 +35,8 @@ export default {
   },
   {
     cardNumber : 3,
-    title : 'General knowledge quiz game',
+    title : 'D U KNOW?',
+    subtitle : 'General knowledge quiz game',
     cardImg : '/assets/quizprev.webp',
     text: 'Multiple choice questions from an open API (Open Trivia Database). Quiz for 1 or 2 players. It shows scores and rates and presents the final winner.',
     linkpath : {pathname: 'blog.augustolle.com'},
