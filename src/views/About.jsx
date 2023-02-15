@@ -22,6 +22,18 @@ function About({}) {
         </h2>
         <div className={styles.stackElementsContainer} >
           <div className={styles.stackElement} >
+              <div className={styles.stackElementHeading} >
+                <img className={styles.stackElementImage} src="assets/js.webp" width="50px" alt="Javascript" />
+                <h3 className={styles.stackElementName} >Javascript</h3>
+              </div>
+              <div className={styles.stackSubelementsContainer}>
+                <div className={styles.stackSubelement}>
+                  <img className={styles.stackSubelementImage} src="assets/react.webp" width="50px" alt="React" />
+                  <h4 className={styles.stackSubelementName} >React</h4>
+                </div>
+              </div>
+            </div>
+          <div className={styles.stackElement} >
             <div className={styles.stackElementHeading} >
               <img className={styles.stackElementImage} src="assets/html5.webp" width="50px" alt="HTML5" />
               <h3 className={styles.stackElementName} >HTML5</h3>
@@ -44,18 +56,6 @@ function About({}) {
               <div className={styles.stackSubelement}>
                 <img className={styles.stackSubelementImage} src="assets/bootstraps.png" width="50px" alt="Sass" />
                 <h4 className={styles.stackSubelementName} >Bootstrap</h4>
-              </div>
-            </div>
-          </div>
-          <div className={styles.stackElement} >
-              <div className={styles.stackElementHeading} >
-                <img className={styles.stackElementImage} src="assets/js.webp" width="50px" alt="Javascript" />
-                <h3 className={styles.stackElementName} >Javascript</h3>
-              </div>
-            <div className={styles.stackSubelementsContainer}>
-              <div className={styles.stackSubelement}>
-                <img className={styles.stackSubelementImage} src="assets/react.webp" width="50px" alt="React" />
-                <h4 className={styles.stackSubelementName} >React</h4>
               </div>
             </div>
           </div>

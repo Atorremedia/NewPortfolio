@@ -1,8 +1,9 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as *;
+
 .form {
+    @include frozenGlass;
     font-size: 1.2rem;
-    border: 2px solid black;
-    background-color: white;
-    display: flex;
     flex-direction: column;
     max-width: 1000px;
     margin: auto;
@@ -28,6 +29,7 @@
     margin-bottom: 5px;
     background-color: transparent;
     width: 400px;
+    line-height: .5rem;
 }
 .formSubmit {
     padding: 10px;
@@ -45,5 +47,4 @@
     display: flex;
     justify-content: center;
     margin: auto;
-
 }
