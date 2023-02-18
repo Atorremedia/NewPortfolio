@@ -42,7 +42,7 @@ function PagePresentation({view}) {
             <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>Contact</h1>
             <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
               <div className={`${styles.presentationTextWrapper} ${theme}`}>
-                <p className={styles.introText}>Please,  <br />Coding since kid, now I use code to create well designed interfaces and useful applications. </p>
+                <p className={styles.introText}>Please, fill in the form to contact me. I will answer as soon as I can.</p>
               </div>
             </div>
           </div>

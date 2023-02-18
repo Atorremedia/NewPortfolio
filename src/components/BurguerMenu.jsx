@@ -27,7 +27,7 @@ function BurguerMenu() {
             <div className={`${styles.burguerLine} ${theme} burguerLine ${menuState} burguerLine3`}></div>
         </button>
         {active && (
-        <div className={`${styles.menuNav} ${theme} burguerNav`}>
+        <nav className={`${styles.menuNav} ${theme} burguerNav`}>
             <Link className={`${styles.menuOptionLink} ${theme} menuOption`} to="/">
                 <div className={`${styles.menuOptionContainer} ${theme} menuOptionContainer`}>
                     <p className={`${styles.menuOptionText} ${theme} menuOptionText`}>Home</p>
@@ -53,7 +53,7 @@ function BurguerMenu() {
                     <p className={`${styles.menuOptionText} ${theme} menuOptionText`}>Contact</p>
                 </div>
             </Link>
-        </div>
+        </nav>
         )}
     </div>
   )
