@@ -1,0 +1,26 @@
+/*fonts*/
+/*colors*/
+.mainTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(166, 169, 169);
+  height: 250px;
+  border-bottom: solid 2px #1a1a1a;
+}
+
+.mainTitleText {
+  font-family: tahoma;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mainSubtitle {
+  font-family: courier;
+  font-size: 1.2rem;
+  line-height: 0.5rem;
+}
+
+/*# sourceMappingURL=blogTitle.module.css.map */

@@ -25,7 +25,7 @@
   height: 75px;
 }
 .light.pres {
-  text-shadow: 2px 2px 5px #404040;
+  text-shadow: 2px 2px 5px #f5f3f3;
 }
 .light.html {
   background-color: rgb(25, 17, 248);
@@ -86,6 +86,9 @@
 }
 .dark.new {
   background-color: rgba(17, 17, 17, 0.8);
+}
+.dark.postsTitle {
+  color: #e3e3e3;
 }
 .dark.projectTitle {
   background-color: hsla(0deg, 0%, 97%, 0.5);

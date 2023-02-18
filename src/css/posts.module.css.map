@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/abstracts/_variables.scss","../scss/components/posts.module.scss"],"names":[],"mappings":"AACI;AAGA;ACFJ;EACI,kBDSc;ECRd;;;AAEJ;EACI;EACA;EACA;EACA;EACA;EACA;;;AAEJ;EACI,aDZiB;ECajB;EACA;EACA;EACA","file":"posts.module.css"}

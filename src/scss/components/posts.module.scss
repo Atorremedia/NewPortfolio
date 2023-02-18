@@ -1,0 +1,19 @@
+@use '../abstracts/variables' as v;
+
+.postsZone {
+    padding: 1.5rem 1rem;
+}
+.postsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.postsTitle {
+    font-family: v.$font-secondary;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+}
