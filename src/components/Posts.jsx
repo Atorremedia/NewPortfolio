@@ -4,7 +4,7 @@ import posts from '../../public/data/postCards'
 import PostCard from './PostCard'
 import { themeContext } from '../contexts/ThemeContext';
 
-function Posts() {
+function Posts({setDisplayedArticle }) {
 
   const {theme} = useContext(themeContext);
   const displayedPosts = [];
@@ -19,6 +19,7 @@ function Posts() {
           imgSrc={posts.posts[i].imgSrc}
           isNew={posts.posts[i].isNew}
           abstract={posts.posts[i].abstract}
+          setDisplayedArticle={setDisplayedArticle}
         />
         )
     }

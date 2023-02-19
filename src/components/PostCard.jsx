@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from '../css/postCard.module.css'
 
-function PostCard({postTitle, imgSrc, isNew, abstract}) {
+function PostCard({id, postTitle, imgSrc, isNew, abstract, setDisplayedArticle,}) {
+
+
   return (
-    <div className= {styles.postcard}>
+    <div className= {styles.postcard} onClick={()=>setDisplayedArticle(id)}>
         {isNew && 
         <div className={`${styles.newTag} new ${theme}`}>New!</div>
         }
