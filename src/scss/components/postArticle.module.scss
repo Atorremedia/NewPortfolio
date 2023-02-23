@@ -1,0 +1,40 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as *;
+
+.articleContainer {
+    @include frozenGlass;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.articleTitle {
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.articleSectionTitle {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.articleText {
+    width: 80%;
+    margin: 1rem;
+    line-height: 1.8rem;
+    font-family: v.$font-secondary;
+    font-weight: 500;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.backButton {
+    margin: 1.5rem auto;
+    width: 80%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    &:hover {
+        background-color: v.$color-accent;
+        color: v.$font-light;
+    }
+}

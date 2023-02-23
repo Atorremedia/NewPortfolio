@@ -39,7 +39,7 @@ export default {
     subtitle : 'Web-based general knowledge quiz game',
     cardImg : '/assets/quizprev.webp',
     text: 'Multiple choice questions from an open API (Open Trivia Database). Quiz for 1 or 2 players. It shows scores and rates and presents the final winner.',
-    linkpath : {pathname: 'blog.augustolle.com'},
+    linkpath : 'http://quiz.augustolle.com',
     github : 'https://github.com/Atorremedia',
     isNew : false,
     tags: ['html', 'css', 'javascript',],

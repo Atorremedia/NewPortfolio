@@ -3,9 +3,13 @@ import styles from '../css/postCard.module.css'
 
 function PostCard({id, postTitle, imgSrc, isNew, abstract, setDisplayedArticle,}) {
 
+  function renderArticle(id){
+  window.scrollTo(0,0)
+  setDisplayedArticle(id)
+  }
 
   return (
-    <div className= {styles.postcard} onClick={()=>setDisplayedArticle(id)}>
+    <div className= {styles.postcard} onClick={()=>renderArticle(id)}>
         {isNew && 
         <div className={`${styles.newTag} new ${theme}`}>New!</div>
         }
