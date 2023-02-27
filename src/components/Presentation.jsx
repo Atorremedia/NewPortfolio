@@ -15,7 +15,7 @@ function Presentation() {
           <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
             <img src="/assets/vportrait.png" width="200px" alt="August Ollé profile image" />
             <div className={`${styles.presentationTextWrapper} ${theme}`}>
-              <p className={styles.salute}>My name is <strong>August Ollé</strong>.<br/> I am a frontend developer.<br/>Welcome to my portfolio.</p>
+              <p className={styles.salute}>My name is <strong>August Ollé</strong>. I am a frontend developer. I love to use code to create. Welcome to my portfolio.</p>
               <p className={styles.typewriter}>Let's build something great together!</p>
             </div>
           </div>

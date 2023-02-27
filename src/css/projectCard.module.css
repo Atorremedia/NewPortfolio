@@ -14,8 +14,6 @@
   overflow: hidden;
   display: block;
   border: 1px solid #1a1a1a;
-  cursor: pointer;
-  user-select: none;
 }
 
 .newTag {

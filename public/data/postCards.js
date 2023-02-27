@@ -9,10 +9,10 @@ export default {
         },
         {
             id: 2,
-            title: 'Javascript overview',
+            title: 'Javascript, a versatile, powerful language',
             imgSrc: './assets/js.jpg',
             isNew: false,
-            abstract: 'Here we discuss the main ideas every Javascript programmer should know',
+            abstract: 'Javascript seems to have swept the web development board. What can this coding language offer to web developers 26 years after its birth?',
         },
         {
             id: 3,
