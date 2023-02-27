@@ -62,12 +62,34 @@
   border-radius: 10px;
 }
 
-.presentationSubcontainer img {
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+.img {
+  max-width: 100%;
+  display: block;
+}
+
+.profileContainer {
+  width: 12rem;
+  height: 12rem;
+  position: relative;
+  border-radius: 0 0 100vw 100vw;
+  overflow: hidden;
+  aspect-ratio: 1/1.5;
+}
+
+.profileBackground {
+  position: absolute;
+  inset: auto 0 0;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  margin-inline: auto;
+  opacity: 0.6;
+}
+
+.profilePic {
+  position: absolute;
+  margin-inline: auto;
+  max-width: 20rem;
+  inset: auto 0 0;
 }
 
 .presentationTextWrapper {
