@@ -1,15 +1,17 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { themeContext } from '../contexts/ThemeContext';
 import styles from '../css/postCard.module.css'
 
 function PostCard({id, postTitle, imgSrc, isNew, abstract, setDisplayedArticle,}) {
 
+  const {theme} = useContext(themeContext);
   function renderArticle(id){
   window.scrollTo(0,0)
   setDisplayedArticle(id)
   }
 
   return (
-    <div className= {styles.postcard} onClick={()=>renderArticle(id)}>
+    <div className= {`${styles.postcard} postcard ${theme}`} onClick={()=>renderArticle(id)}>
         {isNew && 
         <div className={`${styles.newTag} new ${theme}`}>New!</div>
         }

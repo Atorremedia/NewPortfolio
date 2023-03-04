@@ -5,7 +5,7 @@ export default {
             title: 'How I got into coding',
             imgSrc: './assets/code001.jpg',
             isNew: false,
-            abstract: 'This is the article abstract.',
+            abstract: 'From Amstrad and BASIC, as a kid, to microcontrollers and Javascript with React. It was a long, fun way discovering the coding world.',
         },
         {
             id: 2,
@@ -19,7 +19,7 @@ export default {
             title: 'React overview',
             imgSrc: './assets/react.jpg',
             isNew: false,
-            abstract: 'React is such a useful tool to build web apps, once you understand it.',
+            abstract: 'React is such a useful tool to build web apps, once you understand it. Modularization and dependency injection are the key.',
         },
     ]
 }

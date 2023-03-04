@@ -1,6 +1,7 @@
 import React, {useContext} from 'react'
 import styles from '../css/projectCard.module.css'
 import {themeContext} from '../contexts/ThemeContext';
+import { Link } from 'react-router-dom';
 
 
 function ProjectCard({cardTitle, cardSubtitle, cardText, cardImg, linkpath, github, isNew, tags}) {
@@ -31,11 +32,21 @@ function ProjectCard({cardTitle, cardSubtitle, cardText, cardImg, linkpath, gith
                 <div className={`${styles.infoContainer}`}>
                     <p className={`${styles.projectDescription}`}>{cardText}</p>
                     <div className={`${styles.cardCtaContainer}`}>
-                        <a className={`${styles.cardCta}  ${theme} cardCta ${styles.cardCta1}`} href={linkpath}>
-                            <h3 className={`${styles.cardCtaText}`}>
-                                Visit project
-                            </h3>
-                        </a>
+                        {
+                            linkpath === '/blog' ?
+                            (<Link className={`${styles.cardCta}  ${theme} cardCta ${styles.cardCta1}`} to={linkpath}>
+                                <h3 className={`${styles.cardCtaText}`}>
+                                    Visit project
+                                </h3>
+                            </Link>
+                            )
+                            :
+                            <a className={`${styles.cardCta}  ${theme} cardCta ${styles.cardCta1}`} href={linkpath}>
+                                <h3 className={`${styles.cardCtaText}`}>
+                                    Visit project
+                                </h3>
+                            </a>
+                        }
                         <a className={`${styles.cardCta} ${theme} cardCta ${styles.cardCta2}`} href={github}>
                             <h3 className={`${styles.cardCtaText}`}>
                                 Check repository in Github

@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import styles from '../css/footer.module.css'
 import {themeContext} from '../contexts/ThemeContext';
+import { Link } from "react-router-dom";
 
 
 function Footer() {
@@ -10,12 +11,45 @@ function Footer() {
 
   return (
     <div className={`${styles.footer} ${theme} footer`}>
-      <h4 className={styles.footerText}>Credits</h4>
-      <a href="https://www.flaticon.com/free-icons/blog" title="blog icons">Icons created by Freepik - Flaticon</a>
-      <p>Foto de <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> en <a href="https://unsplash.com/es/fotos/cvBBO4PzWPg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-      </p>
-      <p>Foto de <a href="https://unsplash.com/@juanjodev02?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juanjo Jaramillo</a> en <a href="https://unsplash.com/es/fotos/mZnx9429i94?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-      </p>
+      <div className={styles.footerColumns}>
+        <div className={styles.footerColumn1}>
+          <h3 className={styles.footerName}>&#169; 2023 August Ollé</h3>
+          <Link to='/contact'>
+          <button className={`${styles.contactButton} contactButton ${theme}`}>
+            Contact me
+          </button>
+          </Link>
+        </div>
+        <div className={styles.separator}>
+        </div>
+        <div className={styles.footerNav}>
+          <Link to='/' className={styles.footerLink}>Home</Link>
+          <Link to='/blog' className={styles.footerLink}>Blog</Link>
+          <Link to='/about' className={styles.footerLink}>About</Link>
+          <Link to='/contact' className={styles.footerLink}>Contact</Link>
+        </div>
+        <div className={styles.separator}>
+        </div>
+        <div className={styles.socialIconContainer}>
+          <a href="https://www.linkedin.com/in/Augustolle">
+          <img className={styles.socialIcon} src="/assets/logo-linkedin.webp" width="30px" alt="Linkedin"/>
+          </a>
+          <a href="https://www.github.com/Atorremedia">
+          <img className={styles.socialIcon} src="/assets/logo-github.webp" width="30px" alt="Github"/>
+          </a>
+          <a href="https://www.twitter.com/AugustOlle">
+          <img className={styles.socialIcon} src="/assets/logo-twitter.webp" width="30px" alt="Twitter"/>
+          </a>
+        </div>
+      </div>
+      <hr></hr>
+      <div className={styles.credits}>
+        <h4 className={styles.creditsTitle}>Credits</h4>
+        <a href="https://www.flaticon.com/free-icons/blog" title="blog icons">Icons created by Freepik - Flaticon 
+        </a>
+        <p>Background images from <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> and <a href="https://unsplash.com/@juanjodev02?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Juanjo Jaramillo</a> from <a href="https://unsplash.com/es/fotos/cvBBO4PzWPg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </p>
+      </div>
     </div>
   )
 }

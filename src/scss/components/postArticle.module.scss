@@ -11,7 +11,7 @@
 }
 .articleTitle {
     font-size: 3rem;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 .articleSectionTitle {
     font-size: 2rem;
@@ -22,18 +22,18 @@
     margin-left: 1.5rem;
 }
 .articleText {
-    margin: 0 auto;
-    width: 80%;
-    margin: 1rem;
-    line-height: 1.8rem;
+    margin: 1rem auto;
+    width: 90%;
+    line-height: 1.7rem;
+    font-size: 1rem;
     font-family: v.$font-secondary;
-    font-weight: 500;
 }
 .code {
     margin: 1rem auto;
     background-color: gray;
     font-family: v.$font-main;
     padding: .5rem;
+    width: 80%;
 }
 .buttonContainer {
     display: flex;

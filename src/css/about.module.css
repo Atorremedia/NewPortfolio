@@ -49,7 +49,7 @@
 }
 
 .stackElementsContainer {
-  width: 50%;
+  width: 80%;
   min-width: 350px;
   display: flex;
   flex-direction: column;
@@ -63,7 +63,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 0.2rem;
-  width: 80%;
+  width: 90%;
   min-width: 250px;
   margin: 0.5rem auto;
   border-radius: 10px;
@@ -90,18 +90,34 @@
 
 .stackSubelementsContainer {
   width: 100%;
+  margin-inline: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 0.2rem;
   justify-content: space-around;
   align-items: center;
-  padding: 0.2rem;
+  padding: 0.3rem;
 }
 
 .stackSubelement {
   border: 1px solid #D81E5B;
   border-radius: 10px;
   padding: 0.2rem;
+  flex-grow: 1;
+  margin: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stackSubelementImage {
+  margin-inline: 1rem;
+}
+
+.stackSubelementName {
+  margin-block: 0.2rem;
 }
 
 /*# sourceMappingURL=about.module.css.map */

@@ -20,7 +20,7 @@ function Blog({}) {
     <>
       <Frame />
       <Header />
-    <div className={styles.mainTitle}>
+    <div className={`${styles.mainTitle} blogTitleContainer ${theme}`}>
       <h1 className={`${styles.mainTitleText} blogTitle ${theme}`} >Machines for humans</h1>
       <p className={`${styles.mainSubtitle} blogSubtitle ${theme}`} >web development and digital interaction blog by August Ollé</p>
     </div>

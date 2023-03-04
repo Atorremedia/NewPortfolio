@@ -25,18 +25,24 @@ function PostArticle({displayedArticle, setDisplayedArticle}) {
                 </p>
                 <h3 className={`${styles.articleSectionTitle}`}>Early web design and development</h3>
                 <p className={`${styles.articleText}`}>
-                In the 90's I was a teenager and personal computers started to bloom. I discovered Windows and started tinkering with design tools like <strong>CorelDraw</strong> and <strong>PhotoShop</strong>. The possibilities were endless and I had my first contact with design. It was fun and when the web arrived I stepped into <strong>Netscape Editor</strong> as a natural evolution in my digital discovery, and I was designing web pages and filling them all with GIFs right away. What a time!
-                <br />
+                In the 90's I was a teenager and personal computers started to bloom. I discovered Windows and started tinkering with design tools like <strong>CorelDraw</strong> and <strong>PhotoShop</strong>. The possibilities were endless and I had my first contact with design. It was fun and, when the web arrived, I stepped into <strong>Netscape Editor</strong> as a natural evolution in my digital discovery. And there I was, designing web pages and filling them all with GIFs right away. What a time!
                 Internet was starting to be widely used. The web entered an exponential growth phase and we coud see it live. 
-                <br />
-                Then, I found <strong>Dreamweaver</strong>. It was a more sofisticated and professional GUI for web development, where I started to understand how HTML and CSS worked together and I learned that PHP was a thing.
-                <br />
-                Things started to get fancy and then a different aproach came out. Web pages offered new design and real dynamic features, not just GIFs wobling around. There was a new inspiring tool: <strong>Flash</strong>, a vectorial animation language that opened our minds and cluttered our machines and connection lines...
-                <br />
-                After the Flash wave, the CMS's came out and it was easy to pick any web template and adapt it as necessary. They offered lots of features, but, although many more possibilities were available in terms of design and functionality, that was never optimal for customization, not for web 1.0, even less for web 2.0.
                 </p>
-                <h3 className={`${styles.articleSectionTitle}`}>Microcontrollers and electronics</h3>
+                <p className={`${styles.articleText}`}>
+                Then, I found <strong>Dreamweaver</strong>. It was a more sofisticated and professional GUI for web development, where I started to understand how HTML and CSS worked together and I learned that PHP was a thing.
+                </p>
+                <p className={`${styles.articleText}`}>
+                Things started to get fancy and then a different aproach came out. Web pages offered new design and real dynamic features, not just GIFs wobling around. There was a new inspiring tool: <strong>Flash</strong>, a vectorial animation language that opened our minds and cluttered our machines and connection lines...
+                </p>
+                <p className={`${styles.articleText}`}>
+                After the Flash wave, <strong>CMSs</strong> came out and it was easy to pick any web template and adapt it as necessary. They offered lots of features, but, although many more possibilities were available in terms of design and functionality, that was never optimal for customization, not for web 1.0, even less for web 2.0. So I never got too enthusiastic about it. But my final dive into web development still had to wait a while.
+                </p>
+                <h3 className={`${styles.articleSectionTitle}`}>Electronics Microcontrollers</h3>
+                <p className={`${styles.articleText}`}> Time passed by and my next contact with code came because of a very different need.I have been a horse trainer for more than 25 years, now. And,  some years ago,  I designed a device for using positive reinforcement with horses, so they could have a better experience and learn more efficiently. With such a device, the rider could press a button and then, the device would deliver a small amount of a sweet jelly directly into the horse's mouth. I worked with some engineers and, after a long time, I never got exactly what I needed, so I decided to learn electronics myself (something that was already interesting for me) and try to develop my project on my own. So I dived into microcontrollers and Arduino, based on C++ and rediscovered the joy of coding. I never lost contact with design (even 3d animation) and coding again would inevitably tend to merge with design and web development again...</p>
+                <p className={`${styles.articleText}`}> Coding again was such a good experience. I felt that power of creating what I imagined again, and it pushed me to learn more and more. From Arduino to Javascript, and then, back to web development. But this time from a professional perspective.</p>
                 <h3 className={`${styles.articleSectionTitle}`}>Frontend development</h3>
+                <p className={`${styles.articleText}`}>For the last year I have been studying frontend development on my own. This time, with a lot of dedication and following a good roadmap to become a professional software developer. I worked on web projects and took part in several events and challenges, like the Barcelona Cruz Roja Inclusive Coding Hackathon, organized by Barcelona Digital Talent and Nuwe, where I finished in the first place with my team.</p>
+                <p className={`${styles.articleText}`}>I use HTML, CSS and Javascript with React. And I keep expanding my knowledge about these tools and learning new ones, discovering new ways to implement design and code to make machines more useful for humans.</p>
             </div>
             <div className={`${styles.buttonContainer}`}>
                 <button onClick={handleClick} className={`${styles.backButton}`} >Back to Recent Posts</button>
@@ -62,7 +68,7 @@ function PostArticle({displayedArticle, setDisplayedArticle}) {
                 </p>
                 <p className={`${styles.articleText}`}>JavaScript has several frameworks and libraries that make development even easier. Some of the most popular frameworks include Angular, React, and Vue.js, which provide developers with pre-written code and templates to speed up development. Libraries like jQuery provide useful functions and tools for developers to use in their projects.
                 </p>
-                <h3 className={`${styles.articleSectionTitle}`}>Javascript special features</h3>
+                <h3 className={`${styles.articleSectionTitle}`}>Main Javascript features</h3>
                 <h4 className={`${styles.articleSectionSubtitle}`}>Data types</h4>
                 <p className={`${styles.articleText}`}>JavaScript has several built-in data types, including strings, numbers, booleans, null, undefined, and objects. Strings are used to represent text, while numbers are used to represent numeric values. Booleans are used to represent true/false values, while null and undefined are used to represent non-existent or empty values. Objects are used to represent complex data structures, such as arrays, functions, and objects. JavaScript is a dynamically-typed programming language, which means that variable types are determined at runtime rather than during compilation. In JavaScript, weak typing allows variables to be implicitly coerced from one type to another, which can sometimes result in unexpected behavior or errors.
                 </p>
@@ -76,18 +82,16 @@ function PostArticle({displayedArticle, setDisplayedArticle}) {
                 <h4 className={`${styles.articleSectionSubtitle}`}>Objects</h4>
                 <p className={`${styles.articleText}`}>Objects are one of the most important features of JavaScript programming. An object is a collection of key-value pairs that represent a data structure. Objects can be used to represent complex data structures, such as arrays and functions. Here is an example of an object that represents a person:
                 </p>
-                <pre className={`${styles.code}`}>
-                    <code>
+                <code className={`${styles.code}`}>
                     const person = &#123;<br/>
-  firstName: "John",<br/>
-  lastName: "Doe",<br/>
-  age: 30,<br/>
-  fullName: function() &#123;<br/>
-    return this.firstName + " " + this.lastName;<br/>
-    &#125;<br/>
-    &#125;<br/>
-                    </code>
-                </pre>
+                    firstName: "John",<br/>
+                    lastName: "Doe",<br/>
+                    age: 30,<br/>
+                    fullName: function() &#123;<br/>
+                    return this.firstName + " " + this.lastName;<br/>
+                    &#125;<br/>
+                    &#125;<br/>
+                </code>
                 <h3 className={`${styles.articleSectionTitle}`}>Conclusion</h3>
                 <p className={`${styles.articleText}`}>JavaScript is a powerful and versatile language that is widely used for creating web applications. With its built-in data types, functions, arrow functions, and objects, JavaScript provides developers with a flexible and powerful toolset for building complex web applications. As JavaScript continues to evolve, new features and enhancements will undoubtedly be added to the language, making it an even more powerful and essential tool for web development.
                 </p>
@@ -109,10 +113,26 @@ function PostArticle({displayedArticle, setDisplayedArticle}) {
             <div className={`${styles.articleContainer}`}>
                 <h2 className={`${styles.articleTitle}`}>Component-based development with React</h2>
                 <h3 className={`${styles.articleSectionTitle}`}>Why should I use a Javascript library or framework?</h3>
-                <p className={`${styles.articleText}`}>I was lucky enough, as a kid, to study some programming fundamentals at the school. Fortunately, I had some good computing teachers. They used to understand and enjoy what they taught and, to be honest, I coud not say the same about all of my school teachers. It was the early 80's and computers were used mostly in professional environments, most of them were big and expensive. But there were some family computers starting to make their way. They were such a nerdy thing, mainly maid to play arcade games. My friends and I used to gather around a Commodore or Amstrad machine and we copied simple BASIC games from magazines. I remember enjoying much more when we dared to tweak the code and created our own versions of those games.
-                    Those days, while playing, I learned about sequencial programming, loops, conditional statements, variables and other programming fundamentals. So many hours playing around with that simple code laid a solid base for what was coming years after...
+                <p className={`${styles.articleText}`}>Javascript can be used without frameworks or libraries. They only give the developer the opportunity of using higher level language, which is more readable, maintainable and scalable. They have become a standard because of its usefulness.
                 </p>
-                <h3 className={`${styles.articleSectionTitle}`}>Why should I use a Javascript library or framework?</h3>
+                <h3 className={`${styles.articleSectionTitle}`}>What can React offer to web developers?</h3>
+                <p className={`${styles.articleText}`}>React.js is a popular JavaScript library used for building user interfaces in web applications. Created by Facebook, it has become one of the most widely used tools for front-end web development in recent years.
+                </p>
+                <p className={`${styles.articleText}`}>React is known for its component-based architecture, which allows developers to create reusable UI components that can be easily composed to build complex user interfaces. This approach to building UIs helps to reduce code complexity and improve code reusability, making it easier to maintain and scale large web applications.
+                </p>
+                <p className={`${styles.articleText}`}>React also uses a virtual DOM (Document Object Model) to manage changes to the user interface, which can improve performance and reduce the amount of work required by the browser to update the page. This means that React applications can provide a more responsive and fluid user experience compared to traditional web applications.
+                </p>
+                <p className={`${styles.articleText}`}>Another advantage of React is its strong community support and a wide range of third-party libraries and tools. This means that developers can easily find solutions to common problems and add new features to their applications quickly and efficiently.
+                </p>
+                <p className={`${styles.articleText}`}>React design patterns are established solutions to common problems that developers may encounter when building applications with React.js. These patterns help developers to structure their code in a way that is both efficient and scalable, making it easier to maintain and add new features to their applications over time.
+                </p>
+                <p className={`${styles.articleText}`}>Some common React design patterns include the Container/Presenter pattern, which separates data management from UI rendering, and the Higher Order Component (HOC) pattern, which allows developers to reuse code and add functionality to existing components. By adopting these and other design patterns, developers can create more robust and maintainable React applications.
+                </p>
+                <p className={`${styles.articleText}`}>React has been adopted by many large companies, including Facebook, Instagram, Netflix, and Airbnb, among others. It is also widely used by startups and small businesses, making it a versatile tool for web development across a range of industries.
+                </p>
+                <h3 className={`${styles.articleSectionTitle}`}>Conclusion</h3>
+                <p className={`${styles.articleText}`}>React.js is a powerful tool for building user interfaces in web applications. Its component-based architecture, virtual DOM, and strong community support make it a popular choice among developers looking to create fast, scalable, and maintainable web applications.
+                </p>
             </div>
             <div className={`${styles.buttonContainer}`}>
             <button onClick={handleClick} className={`${styles.backButton}`} >Back to Recent Posts</button>

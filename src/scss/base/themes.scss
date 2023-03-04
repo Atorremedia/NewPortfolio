@@ -84,7 +84,7 @@
 
     }
     &.pres {
-        background-color: rgba($color: #dfdfdf, $alpha: .5);
+        background-color: rgba($color: #dfdfdf, $alpha: .2);
         text-shadow: 2px 2px 5px #404040;
     }
     &.presTitle {
@@ -139,6 +139,20 @@
     &.cardCta {
         background-color: v.$background1;
         color: v.$font-dark;
+    }
+    &.blogTitleContainer {
+        background-color: v.$background0;
+        color: v.$font-light;
+    }
+    &.postcard {
+        background-color: rgba($color: #212121, $alpha: .5);
+        color: v.$font-light;
+    }
+    &.contactButton {
+        color: v.$font-light;
+    }
+    &footerLink {
+        color: v.$font-light;
     }
 }
 

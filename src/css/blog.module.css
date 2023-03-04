@@ -5,22 +5,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(166, 169, 169);
-  height: 250px;
+  background-color: #ae83e1;
+  height: 300px;
   border-bottom: solid 2px #1a1a1a;
 }
 
 .mainTitleText {
+  margin-top: 6rem;
   font-family: tahoma;
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.2rem;
 }
 
 .mainSubtitle {
   font-family: courier;
   font-size: 1.2rem;
-  line-height: 0.5rem;
+  line-height: 1.5rem;
+  margin: auto;
+  text-align: center;
 }
 
-/*# sourceMappingURL=blogTitle.module.css.map */
+/*# sourceMappingURL=blog.module.css.map */

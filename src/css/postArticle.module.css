@@ -18,7 +18,7 @@
 
 .articleTitle {
   font-size: 3rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .articleSectionTitle {
@@ -32,12 +32,11 @@
 }
 
 .articleText {
-  margin: 0 auto;
-  width: 80%;
-  margin: 1rem;
-  line-height: 1.8rem;
+  margin: 1rem auto;
+  width: 90%;
+  line-height: 1.7rem;
+  font-size: 1rem;
   font-family: tahoma;
-  font-weight: 500;
 }
 
 .code {
@@ -45,6 +44,7 @@
   background-color: gray;
   font-family: courier;
   padding: 0.5rem;
+  width: 80%;
 }
 
 .buttonContainer {

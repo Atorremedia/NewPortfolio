@@ -15,7 +15,7 @@ function About({}) {
         <PagePresentation view='about'/>
         <section className={styles.aboutContent}>
         <p className={styles.aboutPararagraph}>
-          I am a React frontend developer. I use Javascript and the React library to build web applications.
+          I am a frontend developer. I build web sites and applications. Here you can find some of the tools I use.
         </p>
         <h2 className={styles.aboutH2}>
           My stack:
@@ -54,9 +54,15 @@ function About({}) {
                 <h4 className={styles.stackSubelementName} >Tailwind</h4>
               </div>
               <div className={styles.stackSubelement}>
-                <img className={styles.stackSubelementImage} src="assets/bootstraps.png" width="50px" alt="Sass" />
+                <img className={styles.stackSubelementImage} src="assets/bootstrap.png" width="50px" alt="Sass" />
                 <h4 className={styles.stackSubelementName} >Bootstrap</h4>
               </div>
+            </div>
+          </div>
+          <div className={styles.stackElement} >
+            <div className={styles.stackElementHeading} >
+              <img className={styles.stackElementImage} src="assets/figma.png" width="50px" alt="HTML5" />
+              <h3 className={styles.stackElementName} >Figma</h3>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default {
     title: 'Machines for humans',
     subtitle : 'Blog about Frontend development and other IT topics',
     cardImg : '/assets/blog.jpg',
-    text: 'I document my personal journey through Frontend Development and IT in general. Coding, digital interaction, microcontrollers and more will be covered in this blog.',
+    text: 'I document my personal journey through Frontend Development and IT in general. Coding, digital interaction, microcontrollers and more will be covered in this blog. I am currently developing the backend for this project',
     linkpath : '/blog',
     github : 'https://github.com/Atorremedia',
     isNew : true,

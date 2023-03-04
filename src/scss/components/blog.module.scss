@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(166, 169, 169);
-    height: 280px;
+    background-color: v.$color-secondary;
+    height: 300px;
     border-bottom: solid 2px v.$font-dark;
 }
 .mainTitleText {
+    margin-top: 6rem;
     font-family: v.$font-secondary;
     font-size: 3rem;
     text-align: center;
@@ -18,5 +19,7 @@
 .mainSubtitle {
     font-family: v.$font-main;
     font-size: 1.2rem;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
+    margin: auto;
+    text-align: center;
 }
