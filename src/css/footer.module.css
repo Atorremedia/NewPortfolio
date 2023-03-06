@@ -48,7 +48,7 @@
 
 .separator {
   width: 0.1rem;
-  height: 80%;
+  height: 5rem;
   margin-block: auto;
   background-color: hsla(0deg, 0%, 97%, 0.35);
   margin: 0.3rem;
@@ -59,7 +59,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: self-start;
 }
 
 .socialIcon {
