@@ -54,7 +54,7 @@
   background-color: #0728B3;
   color: #e3e3e3;
   box-shadow: 8px 5px 5px rgba(17, 17, 17, 0.8);
-  box-shadow: 8px -5px -5px rgba(17, 17, 17, 0.8);
+  box-shadow: 8px 5px 5px rgba(17, 17, 17, 0.8);
 }
 
 .button0 {
