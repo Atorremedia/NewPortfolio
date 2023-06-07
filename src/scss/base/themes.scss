@@ -95,9 +95,11 @@
         transition: all .4s;
         background-color: v.$font-dark
     }
-    &.presText{
-        color: v.$font-dark;
+    &.presText {
         background-color: rgba($color: #dfdfdf, $alpha: .2);
+    }
+    &.presTextWrapper {
+        color: v.$font-light;
     }
     &.new {
         background-color: v.$background2;
@@ -108,7 +110,6 @@
     &.projectTitle {
         background-color: v.$background1;
         color: v.$font-light;
-
     }
     &.title {
         background-color: v.$background1;
@@ -146,6 +147,13 @@
     }
     &.postcard {
         background-color: rgba($color: #212121, $alpha: .5);
+        color: v.$font-light;
+    }
+    &.articleContainer {
+        background-color:  rgba($color: #686767, $alpha: .3);
+        color: v.$font-light;
+    }
+    &.aboutP {
         color: v.$font-light;
     }
     &.contactButton {

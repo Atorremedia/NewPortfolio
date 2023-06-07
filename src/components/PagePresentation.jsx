@@ -13,7 +13,7 @@ function PagePresentation({view}) {
           <div className={`${styles.presentationCard} ${theme} pres`}>
             <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>Projects</h1>
             <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
-              <div className={`${styles.presentationTextWrapper} ${theme}`}>
+              <div className={`${styles.presentationTextWrapper} presTextWrapper ${theme}`}>
                 <p className={styles.introText}>These are some of the web developement projects I have been working on lately. This list is being updated frequently.<br/>Feel free to navigate each project and review its repository.</p>
               </div>
             </div>
@@ -27,7 +27,7 @@ function PagePresentation({view}) {
           <div className={`${styles.presentationCard} ${theme} pres`}>
             <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>About me</h1>
             <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
-              <div className={`${styles.presentationTextWrapper} ${theme}`}>
+              <div className={`${styles.presentationTextWrapper} presTextWrapper ${theme}`}>
                 <p className={styles.introText}>Coding since kid, now I code professionally to create well designed interfaces and useful applications. </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ function PagePresentation({view}) {
           <div className={`${styles.presentationCard} ${theme} pres`}>
             <h1 className={`${styles.mainTitle}  ${theme} presTitle`}>Contact</h1>
             <div className={`${styles.presentationSubcontainer} ${theme} presText`}>
-              <div className={`${styles.presentationTextWrapper} ${theme}`}>
+              <div className={`${styles.presentationTextWrapper} presTextWrapper ${theme}`}>
                 <p className={styles.introText}>Please, fill in the form to contact me. I will answer as soon as I can.</p>
               </div>
             </div>

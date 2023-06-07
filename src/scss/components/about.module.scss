@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #6867674d;
 
 
     @media (max-width: 725px) {
@@ -23,7 +24,7 @@
     max-width: 60ch;
     font-size: 1.3rem;
     font-weight: 500;
-    line-height: 1.3rem;
+    line-height: 1.8rem;
     @media (max-width: 725px) {
         margin: 5px;
     }
@@ -53,7 +54,7 @@
     min-width: 250px;
     margin: .5rem auto;
     border-radius: 10px;
-    border: 1px solid v.$color-accent;
+    border: 2px solid v.$color-accent;
 }
 .stackElementHeading {
     display: flex;
@@ -85,7 +86,7 @@
 
 }
 .stackSubelement {
-    border: 1px solid v.$color-accent;
+    border: 1px dashed v.$color-accent;
     border-radius: 10px;
     padding: .2rem;
     flex-grow: 1;

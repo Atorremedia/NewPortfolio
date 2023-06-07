@@ -3,19 +3,22 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import PagePresentation from '../components/PagePresentation'
 import styles from '../css/about.module.css'
+import { useContext } from 'react'
+import { themeContext } from '../contexts/ThemeContext'
 
 
 function About({}) {
 
+  const {theme} = useContext(themeContext);
 
   return (
     < >
         <Frame />
         <Header />
         <PagePresentation view='about'/>
-        <section className={styles.aboutContent}>
+        <section className={`${styles.aboutContent} aboutP ${theme}`}>
         <p className={styles.aboutPararagraph}>
-          I am a frontend developer. I build web sites and applications. Here you can find some of the tools I use.
+          I am a frontend developer. I build web sites and web applications. I use best practices in my code to make a stable, maintainable, scalable product. Here you can find some of the tools I use.
         </p>
         <h2 className={styles.aboutH2}>
           My stack:

@@ -81,8 +81,10 @@
   background-color: #1a1a1a;
 }
 .dark.presText {
-  color: #1a1a1a;
   background-color: rgba(223, 223, 223, 0.2);
+}
+.dark.presTextWrapper {
+  color: #e3e3e3;
 }
 .dark.new {
   background-color: rgba(17, 17, 17, 0.8);
@@ -130,6 +132,13 @@
 }
 .dark.postcard {
   background-color: rgba(33, 33, 33, 0.5);
+  color: #e3e3e3;
+}
+.dark.articleContainer {
+  background-color: rgba(104, 103, 103, 0.3);
+  color: #e3e3e3;
+}
+.dark.aboutP {
   color: #e3e3e3;
 }
 .dark.contactButton {

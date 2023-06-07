@@ -16,10 +16,10 @@ export default {
     title : 'Tarraco Veterinària',
     subtitle : 'Complete website for a Veterinary clinic',
     cardImg : '/assets/tvetprev.webp',
-    text: 'Website for an animal health center based in Tarragona, Spain. It has 5 sections and features an html form, css flex and grid models, and Javascript functionalities like a photo carroussel or tag filtering. I made the design and the development for this project.',
-    linkpath : 'http://tvet.augustolle.com',
+    text: 'Website for an animal health center based in Tarragona, Spain. It has 5 sections and features an html form, css flex and grid models, and Javascript functionalities like a photo carroussel or tag filtering. I made the design and development for this project.',
+    linkpath : 'https://tarraco-veterinaria.com',
     github : 'https://github.com/Atorremedia',
-    isNew : false,
+    isNew : true,
     tags: ['html', 'css', 'javascript',],
   },
   {

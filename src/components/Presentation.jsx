@@ -17,7 +17,7 @@ function Presentation() {
               <img className={styles.profileBackground} src="/assets/profileBackground.jpg" width="180px" />
               <img className={styles.profilePic} src="/assets/profilePic.gif" width="170px" alt="August Ollé profile image" />
             </div>
-            <div className={`${styles.presentationTextWrapper} ${theme}`}>
+            <div className={`${styles.presentationTextWrapper} presTextWrapper ${theme}`}>
               <p className={styles.salute}>My name is <strong>August Ollé</strong>. I am a frontend developer and I love to use code to create. Welcome to my portfolio.</p>
               <p className={styles.typewriter}>Let's build something great together!</p>
             </div>

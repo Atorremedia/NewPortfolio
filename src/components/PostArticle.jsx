@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { themeContext } from '../contexts/ThemeContext';
 import styles from '../css/postArticle.module.css'
 
 function PostArticle({displayedArticle, setDisplayedArticle}) {
+
+    const {theme} = useContext(themeContext);
+
 
     function handleClick () {
         window.scrollTo(0,0)
@@ -16,7 +20,7 @@ function PostArticle({displayedArticle, setDisplayedArticle}) {
             <div className={`${styles.buttonContainer}`}>
                 <button onClick={handleClick} className={`${styles.backButton}`} >Back to Recent Posts</button>
             </div>
-            <div className={`${styles.articleContainer}`}>
+            <div className={`${styles.articleContainer} articleContainer ${theme}`}>
                 <h2 className={`${styles.articleTitle}`}>HOW I GOT INTO CODING</h2>
                 <h3 className={`${styles.articleSectionTitle}`}>Learning fundamentals at the school and with friends</h3>
                 <p className={`${styles.articleText}`}>

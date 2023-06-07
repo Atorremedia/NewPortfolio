@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: rgba(104, 103, 103, 0.3019607843);
 }
 @media (max-width: 725px) {
   .aboutContent {
@@ -30,7 +31,7 @@
   max-width: 60ch;
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: 1.3rem;
+  line-height: 1.8rem;
 }
 @media (max-width: 725px) {
   .aboutPararagraph {
@@ -67,7 +68,7 @@
   min-width: 250px;
   margin: 0.5rem auto;
   border-radius: 10px;
-  border: 1px solid #D81E5B;
+  border: 2px solid #D81E5B;
 }
 
 .stackElementHeading {
@@ -101,7 +102,7 @@
 }
 
 .stackSubelement {
-  border: 1px solid #D81E5B;
+  border: 1px dashed #D81E5B;
   border-radius: 10px;
   padding: 0.2rem;
   flex-grow: 1;
