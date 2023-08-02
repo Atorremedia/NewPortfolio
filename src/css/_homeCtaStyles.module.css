@@ -7,4 +7,9 @@
   margin: 0.5rem auto 2em auto;
 }
 
+@media (max-width: 800px) {
+  .buttons {
+      width: 100%;
+  }
+}
 /*# sourceMappingURL=_homeCtaStyles.module.css.map */

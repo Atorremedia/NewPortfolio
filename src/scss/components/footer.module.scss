@@ -21,6 +21,7 @@
     align-items: center;
     margin-inline: 2rem;
     @media (max-width: 525px) {
+        width: 100%;
         margin-inline: .2rem;
         }
 }
@@ -77,6 +78,9 @@
     margin-block: auto;
     background-color: v.$background0;
     margin: .3rem;
+    @media (max-width: 525px) {
+        display: none;
+    }
 }
 .socialIconContainer {
     width: 4rem;
@@ -85,6 +89,7 @@
     justify-content: space-between;
     margin-inline: 2rem;
     @media (max-width: 525px) {
+        flex-direction: column;
         margin-inline: 0;
         flex-direction: column;
         justify-content: space-between;
@@ -111,6 +116,9 @@ hr {
 }
 .creditsTitle {
     font-size: .8rem;
+    @media (max-width: 525px) {
+        display: none;
+        }
 }
 a {
     color: v.$font-light;

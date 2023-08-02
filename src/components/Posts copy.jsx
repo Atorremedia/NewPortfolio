@@ -1,25 +1,24 @@
 import React, { useContext } from 'react'
 import styles from '../css/posts.module.css'
+import posts from '../../public/data/postCards'
 import PostCard from './PostCard'
 import { themeContext } from '../contexts/ThemeContext';
-import { useEffect } from 'react';
 
-
-function Posts({setDisplayedArticle, response }) {
+function Posts({setDisplayedArticle }) {
 
   const {theme} = useContext(themeContext);
   const displayedPosts = [];
 
-    for(let i = 0; i<response.length; i++){
+    for(let i = 0; i<posts.posts.length; i++){
       displayedPosts.push(
         <PostCard
           className={`post${i}`}
-          key={response[i].id}
-          id={response[i].id}
-          postTitle={response[i].title}
-          imgSrc={response[i].imgSrc}
-          isNew={response[i].isNew}
-          abstract={response[i].abstract}
+          key={posts.posts[i].id}
+          id={posts.posts[i].id}
+          postTitle={posts.posts[i].title}
+          imgSrc={posts.posts[i].imgSrc}
+          isNew={posts.posts[i].isNew}
+          abstract={posts.posts[i].abstract}
           setDisplayedArticle={setDisplayedArticle}
         />
         )

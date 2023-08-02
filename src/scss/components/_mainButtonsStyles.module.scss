@@ -20,7 +20,7 @@
     mask-size: 800%;
     -webkit-mask-position: 0;
     mask-position: 0;
-
+    
     &:hover {
         transform: scale(1.01);
         transition: all .5s;
@@ -28,6 +28,10 @@
         -webkit-mask-position: 120%;
         mask-position: 120%;
         opacity: 1;
+    }
+    @media(max-width: 525px){
+        width: 80%;
+        margin-inline: auto;
     }
 }
 .title {
@@ -68,3 +72,4 @@
     color: v.$font-light; 
     height: 75px;
 }
+

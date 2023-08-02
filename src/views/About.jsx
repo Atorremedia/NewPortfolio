@@ -6,7 +6,6 @@ import styles from '../css/about.module.css'
 import { useContext } from 'react'
 import { themeContext } from '../contexts/ThemeContext'
 
-
 function About({}) {
 
   const {theme} = useContext(themeContext);

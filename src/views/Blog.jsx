@@ -6,15 +6,14 @@ import Footer from '../components/Footer'
 import styles from '../css/blog.module.css'
 import { themeContext } from '../contexts/ThemeContext'
 import PostArticle from '../components/PostArticle'
-
+import useAxios from '../hooks/useAxios'
 
 function Blog({}) {
   const {theme} = useContext(themeContext);
   const [displayedArticle, setDisplayedArticle] = useState(undefined)
   
-  useEffect(() => {
-    console.log(displayedArticle)
-  }, [displayedArticle])
+  const data = useAxios({})
+  console.log(data)
 
   return (
     <>
@@ -25,9 +24,9 @@ function Blog({}) {
       <p className={`${styles.mainSubtitle} blogSubtitle ${theme}`} >web development and digital interaction blog by August Ollé</p>
     </div>
     {displayedArticle ?
-      <PostArticle displayedArticle={displayedArticle} setDisplayedArticle={setDisplayedArticle} />
+      <PostArticle displayedArticle={displayedArticle} setDisplayedArticle={setDisplayedArticle}  response={data.response}/>
       :
-      <Posts setDisplayedArticle={setDisplayedArticle} />
+      <Posts setDisplayedArticle={setDisplayedArticle} response={data.response}/>
     }
       <Footer />
     </>

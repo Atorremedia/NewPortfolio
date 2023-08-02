@@ -35,6 +35,12 @@
   mask-position: 120%;
   opacity: 1;
 }
+@media (max-width: 525px) {
+  .mainCta {
+    width: 80%;
+    margin-inline: auto;
+  }
+}
 
 .title {
   width: 200px;

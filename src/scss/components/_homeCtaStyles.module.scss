@@ -6,4 +6,9 @@
     // grid-template-columns: repeat(2, 1fr);
     gap: 1em;
     margin: .5rem auto 2em auto;
+    @media (max-width: 800px) {
+        .buttons {
+            width: 100%;
+        }
+    }
 }

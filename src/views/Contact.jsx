@@ -4,12 +4,15 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import PagePresentation from '../components/PagePresentation'
 import styles from '../css/contact.module.css'
+import ScrollToTop from '../helpers/ScrollToTop'
+
 
 
 function Contact({}) {
 
   return (
     <div >
+        <ScrollToTop />
         <Frame />
         <Header />
         <PagePresentation view='contact'/>

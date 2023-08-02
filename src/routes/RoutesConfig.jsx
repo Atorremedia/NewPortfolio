@@ -5,6 +5,7 @@ import About from '../views/About';
 import Contact from '../views/Contact';
 import ScrollToTop from '../helpers/ScrollToTop';
 import Blog from '../views/Blog';
+import BlogArticles from '../views/BlogArticles';
 
 function RoutesConfig(){
     return(
@@ -16,6 +17,7 @@ function RoutesConfig(){
             <Route path="/" element={ <Home/> } />
             <Route path="/home" element={ <Home/> } />
             <Route path='/blog' element={ <Blog/> }/>
+            <Route path='/articles' element={ <BlogArticles/> }/>
             <Route path="/projects" element={ <Projects/> } />
             <Route path="/about" element={ <About/> } />
             <Route path="/contact" element={ <Contact/> } />

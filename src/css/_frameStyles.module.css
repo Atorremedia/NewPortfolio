@@ -2,7 +2,10 @@
 /*colors*/
 .top {
   position: fixed;
-  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: -15;
   inset: 0;
   background-image: url(../../../public/assets/background.jpg);

@@ -2,6 +2,11 @@
 /*colors*/
 html, body {
   font-family: courier;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url(/assets/background.jpg);
 }
 
 html {
@@ -22,6 +27,10 @@ html, body, #app, #app > div {
   height: 100%;
 }
 
+html {
+  overflow-y: auto;
+}
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -29,7 +38,7 @@ h1 {
 
 hr {
   box-sizing: content-box;
-  height: 0;
+  overflow: variable;
 }
 
 pre {
@@ -44,7 +53,8 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -189,6 +199,4 @@ template {
 }
 
 /* abstracts*/
-/*base*/
-
-/*# sourceMappingURL=index.css.map */
+/*base*//*# sourceMappingURL=index.css.map */

@@ -1,0 +1,175 @@
+/*fonts*/
+/*colors*/
+.light.sun {
+  visibility: visible;
+}
+.light.moon {
+  visibility: hidden;
+}
+.light.button0 {
+  background-color: #D81E5B;
+  color: #e3e3e3;
+}
+.light.button1 {
+  background-color: #D81E5B;
+  color: #e3e3e3;
+}
+.light.button2 {
+  background-color: #0728B3;
+  color: #e3e3e3;
+  height: 75px;
+}
+.light.button3 {
+  background-color: #0728B3;
+  color: #e3e3e3;
+  height: 75px;
+}
+.light.pres {
+  text-shadow: 2px 2px 5px #f5f3f3;
+}
+.light.html {
+  background-color: rgb(25, 17, 248);
+}
+.light.css {
+  background-color: rgb(248, 17, 17);
+}
+.light.javascript {
+  background-color: rgb(248, 248, 17);
+  color: #1a1a1a;
+}
+.light.react {
+  background-color: rgb(71, 17, 248);
+}
+.light.nodejs {
+  background-color: rgb(248, 56, 17);
+}
+.light.expressjs {
+  background-color: rgb(248, 17, 171);
+}
+
+.dark.header, .dark.footer {
+  background-color: rgba(17, 17, 17, 0.8);
+  color: #e3e3e3;
+}
+.dark.sun {
+  visibility: hidden;
+}
+.dark.moon {
+  visibility: visible;
+}
+.dark.button0, .dark.button1, .dark.button2, .dark.button3 {
+  color: #e3e3e3;
+}
+.dark.button2, .dark.button3 {
+  height: 75px;
+}
+.dark.back {
+  background: linear-gradient(-45deg, rgba(61, 13, 53, 0.9333333333), rgba(37, 6, 61, 0.9333333333), rgba(1, 46, 63, 0.9333333333), rgba(1, 40, 31, 0.9333333333));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+.dark.pres {
+  background-color: rgba(223, 223, 223, 0.2);
+  text-shadow: 2px 2px 5px #404040;
+}
+.dark.presTitle {
+  color: #e3e3e3;
+}
+.dark.toggle {
+  flex-direction: row-reverse;
+  transition: all 0.4s;
+  background-color: #1a1a1a;
+}
+.dark.presText {
+  background-color: rgba(223, 223, 223, 0.2);
+}
+.dark.presTextWrapper {
+  color: #e3e3e3;
+}
+.dark.new {
+  background-color: rgba(17, 17, 17, 0.8);
+}
+.dark.postsTitle {
+  color: #e3e3e3;
+}
+.dark.projectTitle {
+  background-color: hsla(0, 0%, 97%, 0.5);
+  color: #e3e3e3;
+}
+.dark.title {
+  background-color: hsla(0, 0%, 97%, 0.5);
+  color: #1a1a1a;
+}
+.dark.projectTagsContainer {
+  color: #e3e3e3;
+}
+.dark.html {
+  background-color: rgb(25, 17, 248);
+}
+.dark.css {
+  background-color: rgb(248, 17, 17);
+}
+.dark.javascript {
+  background-color: rgb(248, 248, 17);
+  color: #1a1a1a;
+}
+.dark.react {
+  background-color: rgb(71, 17, 248);
+}
+.dark.nodejs {
+  background-color: rgb(248, 56, 17);
+}
+.dark.expressjs {
+  background-color: rgb(248, 17, 171);
+}
+.dark.cardCta {
+  background-color: hsla(0, 0%, 97%, 0.5);
+  color: #1a1a1a;
+}
+.dark.blogTitleContainer {
+  background-color: hsla(0, 0%, 97%, 0.35);
+  color: #e3e3e3;
+}
+.dark.postcard {
+  background-color: rgba(33, 33, 33, 0.5);
+  color: #e3e3e3;
+}
+.dark.articleContainer {
+  background-color: rgba(104, 103, 103, 0.3);
+  color: #e3e3e3;
+}
+.dark.aboutP {
+  color: #e3e3e3;
+}
+.dark.contactButton {
+  color: #e3e3e3;
+}
+.darkfooterLink {
+  color: #e3e3e3;
+}
+
+.burguerLine1.active {
+  transform: rotate(35deg);
+  margin-left: 2px;
+}
+
+.burguerLine2.active {
+  opacity: 0;
+}
+
+.burguerLine3.active {
+  transform: rotate(-35deg);
+  margin-left: 2px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}/*# sourceMappingURL=themes.css.map */

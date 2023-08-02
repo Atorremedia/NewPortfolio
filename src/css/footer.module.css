@@ -25,6 +25,7 @@
 }
 @media (max-width: 525px) {
   .footerColumn1 {
+    width: 100%;
     margin-inline: 0.2rem;
   }
 }
@@ -83,8 +84,13 @@
   width: 0.1rem;
   height: 5rem;
   margin-block: auto;
-  background-color: hsla(0deg, 0%, 97%, 0.35);
+  background-color: hsla(0, 0%, 97%, 0.35);
   margin: 0.3rem;
+}
+@media (max-width: 525px) {
+  .separator {
+    display: none;
+  }
 }
 
 .socialIconContainer {
@@ -96,6 +102,7 @@
 }
 @media (max-width: 525px) {
   .socialIconContainer {
+    flex-direction: column;
     margin-inline: 0;
     flex-direction: column;
     justify-content: space-between;
@@ -127,9 +134,12 @@ hr {
 .creditsTitle {
   font-size: 0.8rem;
 }
+@media (max-width: 525px) {
+  .creditsTitle {
+    display: none;
+  }
+}
 
 a {
   color: #e3e3e3;
-}
-
-/*# sourceMappingURL=footer.module.css.map */
+}/*# sourceMappingURL=footer.module.css.map */
